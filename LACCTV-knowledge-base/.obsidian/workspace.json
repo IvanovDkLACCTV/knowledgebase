@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1c3ab2a6f4234be",
+        "id": "31fe859bac79bc98",
         "type": "tabs",
         "children": [
           {
-            "id": "3f776180aa14d0ec",
+            "id": "cbfada8174bf96b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,11 +176,25 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "3f776180aa14d0ec",
+  "active": "cbfada8174bf96b5",
   "lastOpenFiles": [
+    "Изучение Obsidian для рабочих задач/ToDo.md",
+    "Шаблоны/Шаблон Q&A.md",
+    "Без названия.md",
+    "База знаний/Privacy Mode при включении заднего хода.md",
+    "База знаний/img/Pasted image 20250224104330.png",
+    "База знаний/img/Pasted image 20250224104733.png",
+    "База знаний/img/Pasted image 20250224104731.png",
+    "База знаний/img/Pasted image 20250224104717.png",
+    "База знаний/img/Pasted image 20250224104630.png",
+    "База знаний/img/Pasted image 20250224104623.png",
+    "База знаний/img",
+    "База знаний/img/Pasted image 20250224104300.png",
+    "Шаблоны",
     "Weekly reports/Без названия.canvas",
     "IIS_PowerShell.pdf",
     "Weekly reports",
@@ -191,11 +205,8 @@
     "img",
     "img/Pasted image 20250220134441.png",
     "img/Pasted image 20250220134432.png",
-    "img/Pasted image 20250220134414.png",
-    "img/Pasted image 20250220134404.png",
     "Clippings/Definitive Obsidian Markdown Cheatsheet Complete Syntax Reference - Face Dragons.md",
     "Изучение Obsidian для рабочих задач/Перевод файлов Word и PDF в Markdown.md",
-    "Изучение Obsidian для рабочих задач/ToDo.md",
     "База знаний",
     "Gregory J. Gaynor.md",
     "Clippings",

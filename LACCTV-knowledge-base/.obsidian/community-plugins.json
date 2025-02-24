@@ -2,5 +2,6 @@
   "obsidian-git",
   "obsidian-importer",
   "obsidian-pandoc",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "templater-obsidian"
 ]
