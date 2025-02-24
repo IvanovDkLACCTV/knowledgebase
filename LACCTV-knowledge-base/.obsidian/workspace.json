@@ -11,10 +11,14 @@
             "id": "bcb7c3a673755106",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Weekly reports/Отчёт Иванов Д.К. 21-28.02.2025.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Отчёт Иванов Д.К. 21-28.02.2025"
             }
           }
         ]
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Шаблоны/Шаблон краткой инструкции.md",
+                "file": "Weekly reports/Отчёт Иванов Д.К. 21-28.02.2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Шаблон краткой инструкции"
+              "title": "Структура Отчёт Иванов Д.К. 21-28.02.2025"
             }
           },
           {
@@ -176,10 +180,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bb54182c82383c0b",
+  "active": "bcb7c3a673755106",
   "lastOpenFiles": [
-    "PDF/Настройка отображения видео на экране регистратора.pdf",
+    "Шаблоны/План-факт.md",
+    "Weekly reports/Отчёт Иванов Д.К. 21-28.02.2025.md",
+    "Шаблоны/Шаблон Q&A.md",
     "Шаблоны/Шаблон краткой инструкции.md",
+    "PDF/Настройка отображения видео на экране регистратора.pdf",
     "База знаний/Настройка отображения видео на экране регистратора.md",
     "PDF",
     "База знаний/img/Pasted image 20250224115743.png",
@@ -190,7 +197,6 @@
     "База знаний/img/Preview.md",
     "База знаний/img/Pasted image 20250224113054.png",
     "Изучение Obsidian для рабочих задач/ToDo.md",
-    "Шаблоны/Шаблон Q&A.md",
     "База знаний/img/Pasted image 20250224104330.png",
     "База знаний/img/Pasted image 20250224104733.png",
     "База знаний/img/Pasted image 20250224104731.png",
