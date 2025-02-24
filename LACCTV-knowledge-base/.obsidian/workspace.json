@@ -11,14 +11,12 @@
             "id": "cbfada8174bf96b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Изучение Obsidian для рабочих задач/ToDo.md",
-                "mode": "source",
-                "source": false
+                "file": "PDF/Настройка отображения видео на экране регистратора.pdf"
               },
-              "icon": "lucide-file",
-              "title": "ToDo"
+              "icon": "lucide-file-text",
+              "title": "Настройка отображения видео на экране регистратора"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Изучение Obsidian для рабочих задач/ToDo.md",
+                "file": "PDF/Настройка отображения видео на экране регистратора.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура ToDo"
+              "title": "Структура Настройка отображения видео на экране регистратора"
             }
           },
           {
@@ -180,12 +178,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbfada8174bf96b5",
+  "active": "4e666e34150dc2c4",
   "lastOpenFiles": [
+    "База знаний/Настройка отображения видео на экране регистратора.md",
+    "PDF",
+    "PDF/Настройка отображения видео на экране регистратора.pdf",
+    "База знаний/img/Pasted image 20250224115743.png",
+    "База знаний/img/Image-setup.md",
+    "Без названия.md",
+    "База знаний/img/Pasted image 20250224115645.png",
+    "База знаний/Privacy Mode при включении заднего хода.md",
+    "База знаний/img/Preview.md",
+    "База знаний/img/Pasted image 20250224113054.png",
     "Изучение Obsidian для рабочих задач/ToDo.md",
     "Шаблоны/Шаблон Q&A.md",
-    "Без названия.md",
-    "База знаний/Privacy Mode при включении заднего хода.md",
     "База знаний/img/Pasted image 20250224104330.png",
     "База знаний/img/Pasted image 20250224104733.png",
     "База знаний/img/Pasted image 20250224104731.png",
@@ -196,15 +202,12 @@
     "База знаний/img/Pasted image 20250224104300.png",
     "Шаблоны",
     "Weekly reports/Без названия.canvas",
-    "IIS_PowerShell.pdf",
+    "PDF/IIS_PowerShell.pdf",
     "Weekly reports",
     "IIS_PowerShell.md",
     "База знаний/Памятка по неисправностям регистратора.md",
     "База знаний/Клип.md",
-    "img/Pasted image 20250220134354.png",
     "img",
-    "img/Pasted image 20250220134441.png",
-    "img/Pasted image 20250220134432.png",
     "Clippings/Definitive Obsidian Markdown Cheatsheet Complete Syntax Reference - Face Dragons.md",
     "Изучение Obsidian для рабочих задач/Перевод файлов Word и PDF в Markdown.md",
     "База знаний",
