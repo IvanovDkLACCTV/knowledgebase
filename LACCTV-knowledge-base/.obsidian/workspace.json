@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "71fec957c639368d",
+        "id": "a1c3ab2a6f4234be",
         "type": "tabs",
         "children": [
           {
-            "id": "5923cabfd159431b",
+            "id": "3f776180aa14d0ec",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "IIS_PowerShell.pdf"
+                "file": "Изучение Obsidian для рабочих задач/ToDo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "IIS_PowerShell"
+              "icon": "lucide-file",
+              "title": "ToDo"
             }
           }
         ]
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo.md",
+                "file": "Изучение Obsidian для рабочих задач/ToDo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -150,7 +152,7 @@
             }
           },
           {
-            "id": "9b92e4a98ab72a9a",
+            "id": "bb54182c82383c0b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -177,10 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e666e34150dc2c4",
+  "active": "3f776180aa14d0ec",
   "lastOpenFiles": [
-    "IIS_PowerShell.md",
+    "Weekly reports/Без названия.canvas",
     "IIS_PowerShell.pdf",
+    "Weekly reports",
+    "IIS_PowerShell.md",
     "База знаний/Памятка по неисправностям регистратора.md",
     "База знаний/Клип.md",
     "img/Pasted image 20250220134354.png",
