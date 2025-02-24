@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "31fe859bac79bc98",
+        "id": "a6015c04ef7f8dfc",
         "type": "tabs",
         "children": [
           {
-            "id": "cbfada8174bf96b5",
+            "id": "bcb7c3a673755106",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Шаблоны/Шаблон краткой инструкции.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Шаблон краткой инструкции"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -180,7 +176,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbfada8174bf96b5",
+  "active": "bb54182c82383c0b",
   "lastOpenFiles": [
     "PDF/Настройка отображения видео на экране регистратора.pdf",
     "Шаблоны/Шаблон краткой инструкции.md",
