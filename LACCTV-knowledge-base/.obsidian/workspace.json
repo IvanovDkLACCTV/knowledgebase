@@ -4,21 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "a6015c04ef7f8dfc",
+        "id": "49db5701b1e596b9",
         "type": "tabs",
+        "dimension": 39.150227617602425,
         "children": [
           {
-            "id": "bcb7c3a673755106",
+            "id": "f8ceffcb4f9b43d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekly reports/Отчёт Иванов Д.К. 21-28.02.2025.md",
+                "file": "База знаний/Замена звуковой дорожки регистратора.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Отчёт Иванов Д.К. 21-28.02.2025"
+              "title": "Замена звуковой дорожки регистратора"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7dbe5ee3d84147b5",
+        "type": "tabs",
+        "dimension": 60.849772382397575,
+        "children": [
+          {
+            "id": "7b597d2c3547745a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Инструкции/Инструкция по замене звуковой дорожки с USB носителя.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Инструкция по замене звуковой дорожки с USB носителя"
             }
           }
         ]
@@ -142,13 +164,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly reports/Отчёт Иванов Д.К. 21-28.02.2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Отчёт Иванов Д.К. 21-28.02.2025"
+              "title": "Структура"
             }
           },
           {
@@ -180,10 +201,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bcb7c3a673755106",
+  "active": "7b597d2c3547745a",
   "lastOpenFiles": [
-    "Шаблоны/План-факт.md",
+    "PDF/Инструкция по замене звуковой дорожки с USB носителя.pdf",
+    "Инструкции/img/Pasted image 20250225143234.png",
+    "Инструкции/img",
+    "Без названия",
+    "Инструкции/img/Pasted image 20250225142835.png",
+    "База знаний/Замена звуковой дорожки регистратора.md",
+    "Инструкции/Инструкция по замене звуковой дорожки с USB носителя.md",
+    "Инструкции",
+    "База знаний/Голосовые уведомления, настраиваемые пользователем. Руководство.md",
+    "База знаний/Privacy Mode при включении заднего хода.md",
+    "База знаний/Не подтвержден 241315.crdownload",
     "Weekly reports/Отчёт Иванов Д.К. 21-28.02.2025.md",
+    "Шаблоны/План-факт.md",
     "Шаблоны/Шаблон Q&A.md",
     "Шаблоны/Шаблон краткой инструкции.md",
     "PDF/Настройка отображения видео на экране регистратора.pdf",
@@ -191,9 +223,7 @@
     "PDF",
     "База знаний/img/Pasted image 20250224115743.png",
     "База знаний/img/Image-setup.md",
-    "Без названия.md",
     "База знаний/img/Pasted image 20250224115645.png",
-    "База знаний/Privacy Mode при включении заднего хода.md",
     "База знаний/img/Preview.md",
     "База знаний/img/Pasted image 20250224113054.png",
     "Изучение Obsidian для рабочих задач/ToDo.md",
@@ -202,9 +232,7 @@
     "База знаний/img/Pasted image 20250224104731.png",
     "База знаний/img/Pasted image 20250224104717.png",
     "База знаний/img/Pasted image 20250224104630.png",
-    "База знаний/img/Pasted image 20250224104623.png",
     "База знаний/img",
-    "База знаний/img/Pasted image 20250224104300.png",
     "Шаблоны",
     "Weekly reports/Без названия.canvas",
     "PDF/IIS_PowerShell.pdf",
@@ -212,14 +240,10 @@
     "IIS_PowerShell.md",
     "База знаний/Памятка по неисправностям регистратора.md",
     "База знаний/Клип.md",
-    "img",
     "Clippings/Definitive Obsidian Markdown Cheatsheet Complete Syntax Reference - Face Dragons.md",
     "Изучение Obsidian для рабочих задач/Перевод файлов Word и PDF в Markdown.md",
-    "База знаний",
     "Gregory J. Gaynor.md",
-    "Clippings",
     "Добро пожаловать.md",
-    "создайте ссылку.md",
-    "Изучение Obsidian для рабочих задач"
+    "создайте ссылку.md"
   ]
 }
