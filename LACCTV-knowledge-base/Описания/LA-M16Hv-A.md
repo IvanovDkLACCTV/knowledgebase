@@ -27,12 +27,13 @@
 |**Прочее**|**Управление**: пульт дистанционного управления. **Датчик ускорения**: встроенный G-Sensor. **Настраиваемые AI-алгоритмы**: ADAS, DSM, BSD.|
 
 ### Размеры
-![](file:///C:/Users/IDK/AppData/Local/Packages/oice_16_974fa576_32c1d314_3b47/AC/Temp/msohtmlclip1/01/clip_image002.gif)
 
+![[Pasted image 20250303093739.png]]
+![[Pasted image 20250303093824.png]]
 ### Интерфейсы
 
 **Передняя панель**
-![](file:///C:/Users/IDK/AppData/Local/Packages/oice_16_974fa576_32c1d314_3b47/AC/Temp/msohtmlclip1/01/clip_image002.gif)
+![[Pasted image 20250303093643.png]]
 
 **Задняя панель**
 
