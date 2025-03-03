@@ -1,11 +1,7 @@
 
 
 Поместите файл по следующему пути на USB-накопителе:
-upgrade/mp3/host/*.*(Ведущий)
-upgrade/mp3/slave/*.*(Ведомый)
-
-Ведомые - внешние устройства, но это ещё не реализовано.
-Ведущий (host) - MDVR, вам в эту папку
+**upgrade/mp3/host/*.***(Ведущий)
 
 > Обратите внимание на путь папки на USB, и на название и характеристики файла. Если не получается с mp3, попробуйте сделать файл wav.
 > Для создания файлов удобно использовать сервис  [https://online-audio-converter.com/ru/](https://online-audio-converter.com/ru/ "https://online-audio-converter.com/ru/")
@@ -28,4 +24,4 @@ upgrade/mp3/slave/*.*(Ведомый)
 ![[Pasted image 20250225143234.png]]
 
 дискретизация 8к или 16к в зависимости от устройства
-![image-20250226-074912.png](file:///C:/Users/IDK/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![[WhatsApp Image 2025-02-26 at 11.06.18_f204c211.jpg]]
