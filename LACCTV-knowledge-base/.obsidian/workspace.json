@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Базовые типы в TypeScript.md",
+                "file": "Шаблоны/Блок-кода TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Базовые типы в TypeScript"
+              "title": "Блок-кода TypeScript"
             }
           }
         ]
@@ -181,8 +181,8 @@
   },
   "active": "759dc089b1d0e3d0",
   "lastOpenFiles": [
-    "Шаблоны/Блок-кода TypeScript.md",
     "TypeScript/Базовые типы в TypeScript.md",
+    "Шаблоны/Блок-кода TypeScript.md",
     "TypeScript/TSC.md",
     "Socket.IO",
     "TypeScript",

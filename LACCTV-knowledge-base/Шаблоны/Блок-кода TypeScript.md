@@ -1,5 +1,5 @@
 #### 
 
-```typescipt
+```typescript
 
 ```
