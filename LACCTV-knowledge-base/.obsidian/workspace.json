@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Types and Interfaces.md",
+                "file": "Socket.IO/CheatSheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Types and Interfaces"
+              "title": "CheatSheet"
             }
           }
         ]
@@ -181,9 +181,10 @@
   },
   "active": "0abdf035eca30b4a",
   "lastOpenFiles": [
+    "TypeScript/Types and Interfaces.md",
+    "Socket.IO/CheatSheet.md",
     "Шаблоны/TypeScript.md",
     "Шаблоны/Блок-кода TypeScript с заголовком.md",
-    "TypeScript/Types and Interfaces.md",
     "Неотсортированное/Вопросы по техподдержке.md",
     "PDF/Вопросы по техподдержке.pdf",
     "TypeScript/Базовые типы в TypeScript.md",
@@ -226,7 +227,6 @@
     "Шаблоны/План-факт.md",
     "Шаблоны/Шаблон краткой инструкции.md",
     "Инструкции/Инструкция по настройке IO и выводу мониторов при замыкании тревожных входов.md",
-    "Инструкции/Создание установочного файла через Inno-setup.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
