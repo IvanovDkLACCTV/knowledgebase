@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe4b94649144135a",
+        "id": "c515246e429c7209",
         "type": "tabs",
         "children": [
           {
-            "id": "0abdf035eca30b4a",
+            "id": "4cf38c195ad562f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,12 +179,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0abdf035eca30b4a",
+  "active": "4cf38c195ad562f0",
   "lastOpenFiles": [
+    "База знаний/Отключение кликабельности мышки в регистраторе.md",
+    "new files/Без названия.md",
+    "База знаний/Памятка по неисправностям регистратора.md",
+    "База знаний/Клип.md",
+    "Инструкции/Инструкция по замене звуковой дорожки с USB носителя.md",
+    "База знаний/Замена звуковой дорожки регистратора.md",
+    "Socket.IO/CheatSheet.md",
     "Socket.IO/img",
     "Socket.IO/img/Pasted image 20250312161038.png",
     "Шаблоны/JavaScript.md",
-    "Socket.IO/CheatSheet.md",
     "TypeScript/Types and Interfaces.md",
     "Шаблоны/TypeScript.md",
     "Шаблоны/Блок-кода TypeScript с заголовком.md",
@@ -207,7 +213,6 @@
     "Jira/img/Pasted image 20250304105523.png",
     "Jira/img/Pasted image 20250304105331.png",
     "Jira/img/Pasted image 20250304105340.png",
-    "База знаний/Отключение кликабельности мышки в регистраторе.md",
     "Описания/LA-M52Hv-A.md",
     "Описания/LA-M16Hv-A.md",
     "Описания/LA-10LCD-T.md",
@@ -216,17 +221,12 @@
     "PDF/3 connector cable with speaker.pdf",
     "PDF/LA-6PIN500.pdf",
     "PDF/LA-10LCD-T.pdf",
-    "Инструкции/Инструкция по замене звуковой дорожки с USB носителя.md",
     "PDF/Инструкция по замене звуковой дорожки с USB носителя в видеорегистраторе.pdf",
-    "База знаний/Замена звуковой дорожки регистратора.md",
-    "PDF/Инструкция по замене звуковой дорожки с USB носителя.pdf",
     "new files/Новая заметка.md",
     "Jira/Информация о входе для импульсов скорости (SPEED IN).md",
     "Шаблоны/Шаблон Q&A.md",
     "Шаблоны/Шаблон Jira.md",
     "Jira/LA-46 Настройки Sleep Mode и Low Volt protection для регистратора 0804.md",
-    "2025-01-07.md",
-    "Шаблоны/План-факт.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
