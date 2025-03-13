@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Socket.IO/CheatSheet.md",
+                "file": "TypeScript/Enums.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CheatSheet"
+              "title": "Enums"
             }
           }
         ]
@@ -179,15 +179,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4cf38c195ad562f0",
+  "active": "bb54182c82383c0b",
   "lastOpenFiles": [
+    "TypeScript/Литеральные типы в комбинации с интерфейсами.md",
+    "TypeScript/Enums.md",
+    "TypeScript/Литералы и switch-case.md",
+    "TypeScript/Литеральные типы в TypeScript.md",
+    "Socket.IO/CheatSheet.md",
     "База знаний/Отключение кликабельности мышки в регистраторе.md",
     "new files/Без названия.md",
     "База знаний/Памятка по неисправностям регистратора.md",
     "База знаний/Клип.md",
     "Инструкции/Инструкция по замене звуковой дорожки с USB носителя.md",
     "База знаний/Замена звуковой дорожки регистратора.md",
-    "Socket.IO/CheatSheet.md",
     "Socket.IO/img",
     "Socket.IO/img/Pasted image 20250312161038.png",
     "Шаблоны/JavaScript.md",
@@ -223,10 +227,6 @@
     "PDF/LA-10LCD-T.pdf",
     "PDF/Инструкция по замене звуковой дорожки с USB носителя в видеорегистраторе.pdf",
     "new files/Новая заметка.md",
-    "Jira/Информация о входе для импульсов скорости (SPEED IN).md",
-    "Шаблоны/Шаблон Q&A.md",
-    "Шаблоны/Шаблон Jira.md",
-    "Jira/LA-46 Настройки Sleep Mode и Low Volt protection для регистратора 0804.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
