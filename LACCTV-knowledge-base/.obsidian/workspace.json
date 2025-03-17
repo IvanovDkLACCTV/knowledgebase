@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Tuple картеж в TypeScript.md",
+                "file": "TypeScript/Классы в TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tuple картеж в TypeScript"
+              "title": "Классы в TypeScript"
             }
           }
         ]
@@ -181,8 +181,8 @@
   },
   "active": "4cf38c195ad562f0",
   "lastOpenFiles": [
-    "TypeScript/Классы в TypeScript.md",
     "TypeScript/Tuple картеж в TypeScript.md",
+    "TypeScript/Классы в TypeScript.md",
     "TypeScript/Enums.md",
     "TypeScript/Литеральные типы в комбинации с интерфейсами.md",
     "TypeScript/Литералы и switch-case.md",
