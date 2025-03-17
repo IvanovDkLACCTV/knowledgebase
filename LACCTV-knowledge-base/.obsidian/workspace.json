@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Классы в TypeScript.md",
+                "file": "TypeScript/Tuple картеж в TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Классы в TypeScript"
+              "title": "Tuple картеж в TypeScript"
             }
           }
         ]
@@ -181,8 +181,9 @@
   },
   "active": "4cf38c195ad562f0",
   "lastOpenFiles": [
-    "TypeScript/Enums.md",
     "TypeScript/Классы в TypeScript.md",
+    "TypeScript/Tuple картеж в TypeScript.md",
+    "TypeScript/Enums.md",
     "TypeScript/Литеральные типы в комбинации с интерфейсами.md",
     "TypeScript/Литералы и switch-case.md",
     "TypeScript/Литеральные типы в TypeScript.md",
@@ -222,7 +223,6 @@
     "Описания/LA-M16Hv-A.md",
     "Описания/LA-10LCD-T.md",
     "Описания/LA-6PIN500.md",
-    "Описания/3 connector cable with speaker.md",
     "PDF/3 connector cable with speaker.pdf",
     "PDF/LA-6PIN500.pdf",
     "PDF/LA-10LCD-T.pdf",
