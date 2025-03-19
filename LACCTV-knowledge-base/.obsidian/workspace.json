@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Generics.md",
-                "mode": "source",
+                "file": "TypeScript/TSX.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generics"
+              "title": "TSX"
             }
           }
         ]
@@ -181,8 +181,10 @@
   },
   "active": "4cf38c195ad562f0",
   "lastOpenFiles": [
-    "TypeScript/Базовые типы в TypeScript.md",
+    "TypeScript/Манипуляции с типами.md",
+    "TypeScript/TSX.md",
     "TypeScript/Generics.md",
+    "TypeScript/Базовые типы в TypeScript.md",
     "TypeScript/Классы в TypeScript.md",
     "TypeScript/Tuple картеж в TypeScript.md",
     "TypeScript/Enums.md",
@@ -221,8 +223,6 @@
     "Jira/img/Pasted image 20250304105331.png",
     "Jira/img/Pasted image 20250304105340.png",
     "Описания/LA-M52Hv-A.md",
-    "Описания/LA-M16Hv-A.md",
-    "Описания/LA-10LCD-T.md",
     "PDF/3 connector cable with speaker.pdf",
     "PDF/LA-6PIN500.pdf",
     "PDF/LA-10LCD-T.pdf",
