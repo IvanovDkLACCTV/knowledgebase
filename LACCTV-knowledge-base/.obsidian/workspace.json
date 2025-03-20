@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PurpleSchool/Road-map/Electron.md",
+                "file": "PurpleSchool/Knowledge-base/TS/ООП/Преобразование типов в TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Electron"
+              "title": "Преобразование типов в TypeScript"
             }
           }
         ]
@@ -181,8 +181,9 @@
   },
   "active": "697cd0d3555117b0",
   "lastOpenFiles": [
-    "PurpleSchool/Road-map/React Native.md",
     "PurpleSchool/Road-map/Electron.md",
+    "PurpleSchool/Knowledge-base/TS/ООП/Преобразование типов в TypeScript.md",
+    "PurpleSchool/Road-map/React Native.md",
     "PurpleSchool/Road-map/от React к Next.md",
     "PurpleSchool/Road-map/Хранение данных.md",
     "PurpleSchool/Road-map/Soft-skills.md",
@@ -216,7 +217,6 @@
     "TypeScript/TSX.md",
     "TypeScript/Манипуляции с типами.md",
     "TypeScript/Generics.md",
-    "TypeScript/Базовые типы в TypeScript.md",
     "Socket.IO/img/Pasted image 20250312161038.png",
     "Описания/img/Pasted image 20250228162332.png",
     "Jira/img/Pasted image 20250304114110.png",
