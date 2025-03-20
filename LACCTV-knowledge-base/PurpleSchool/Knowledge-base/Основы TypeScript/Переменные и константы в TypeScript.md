@@ -110,3 +110,4 @@ const f = 30;
 
 Эти основные концепции и их правильное применение помогут разработчикам создавать более безопасные и поддерживаемые приложения на TypeScript.
 
+[[https://purpleschool.ru/knowledge-base/article/variables-and-constants|Источник]]
