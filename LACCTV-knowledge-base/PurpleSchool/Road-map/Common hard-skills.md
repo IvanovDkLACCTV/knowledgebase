@@ -316,7 +316,6 @@
 
 ## Структурные паттерны
 
-
 - Bridge
 - Facade
 - Adapter
@@ -324,7 +323,6 @@
 - Composite
 
 ## Поведенческие паттерны
-
 
 - Chain of Command
 - Mediator

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PurpleSchool/Road-map/React Native.md",
+                "file": "PurpleSchool/Road-map/от Node к Nest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Native"
+              "title": "от Node к Nest"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "от Node к Nest"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,12 +222,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e537c37267cc3caf",
+  "active": "f440319802ee1f99",
   "lastOpenFiles": [
     "PurpleSchool/Road-map/от React к Next.md",
-    "PurpleSchool/Road-map/Common hard-skills.md",
-    "PurpleSchool/Road-map/от Node к Nest.md",
     "PurpleSchool/Road-map/React Native.md",
+    "PurpleSchool/Road-map/от Node к Nest.md",
+    "PurpleSchool/Road-map/Common hard-skills.md",
     "PurpleSchool/Road-map/Soft-skills.md",
     "PurpleSchool/Knowledge-base/Основы TypeScript/Переменные и константы в TypeScript.md",
     "Шаблоны/Статьи из интернета.md",
