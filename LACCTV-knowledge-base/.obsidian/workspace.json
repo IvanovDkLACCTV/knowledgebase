@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "41a2052fa01cf492",
+        "id": "90cfbf65944f3974",
         "type": "tabs",
         "children": [
           {
-            "id": "344a70faafa924f6",
+            "id": "4e5357d548e2bdb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Объект Date в JavaScript.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Объект Date в JavaScript"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -179,7 +175,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "344a70faafa924f6",
+  "active": "4e666e34150dc2c4",
   "lastOpenFiles": [
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Цикл for...in в JavaScript.md",
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Объект Date в JavaScript.md",
