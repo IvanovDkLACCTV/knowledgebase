@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инструкции/Прошивка регистраторов Novotech.md",
+                "file": "Novatech/Прошивка регистраторов Novotech.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,9 +181,10 @@
   },
   "active": "4e666e34150dc2c4",
   "lastOpenFiles": [
+    "Novatech",
     "Инструкции/img/WhatsApp Image 2025-04-02 at 09.22.04_c35005c2.jpg",
     "Architecture/MCP vs MVC.md",
-    "Инструкции/Прошивка регистраторов Novotech.md",
+    "Novatech/Прошивка регистраторов Novotech.md",
     "Architecture",
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Объект Date в JavaScript.md",
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Цикл for...in в JavaScript.md",
@@ -226,7 +227,6 @@
     "Jira/img/Pasted image 20250304112054.png",
     "Jira/img/Pasted image 20250304111954.png",
     "Jira/img/Pasted image 20250304105523.png",
-    "Jira/img/Pasted image 20250304105331.png",
     "Weekly reports/Без названия.canvas"
   ]
 }
