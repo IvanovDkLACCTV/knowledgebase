@@ -3,5 +3,6 @@
   "obsidian-importer",
   "obsidian-pandoc",
   "obsidian-zotero-desktop-connector",
-  "templater-obsidian"
+  "templater-obsidian",
+  "dataview"
 ]
