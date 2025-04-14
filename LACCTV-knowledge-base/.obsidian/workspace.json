@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ОКТА/Геозоны.md",
+                "file": "Novatek/Список замечаний.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Геозоны"
+              "title": "Список замечаний"
             }
           }
         ]
@@ -181,16 +181,17 @@
   },
   "active": "4e5357d548e2bdb3",
   "lastOpenFiles": [
+    "ОКТА/Геозоны.md",
+    "Novatek/Список замечаний.md",
     "PDF/Геозоны.pdf",
     "ОКТА/img/Pasted image 20250410163614.png",
     "ОКТА/img/Pasted image 20250410163109.png",
     "ОКТА/img/Pasted image 20250410162407.png",
-    "ОКТА/Геозоны.md",
     "ОКТА/img/Pasted image 20250410162423.png",
     "ОКТА/img",
-    "Novatech/Прошивка регистраторов Novotech.md",
+    "Novatek/Прошивка регистраторов Novotech.md",
     "ОКТА",
-    "Novatech",
+    "Novatek",
     "Инструкции/img/WhatsApp Image 2025-04-02 at 09.22.04_c35005c2.jpg",
     "Architecture/MCP vs MVC.md",
     "Architecture",
@@ -222,7 +223,6 @@
     "Неотсортированное/img",
     "PurpleSchool/Knowledge-base/CSS/Анимации в CSS",
     "PurpleSchool/Knowledge-base/CSS/Все о фонах и границах в CSS",
-    "PurpleSchool/Knowledge-base/CSS/Основы CSS",
     "Socket.IO/img/Pasted image 20250312161038.png",
     "Описания/img/Pasted image 20250228162332.png",
     "Jira/img/Pasted image 20250304114110.png",
