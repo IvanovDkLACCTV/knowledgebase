@@ -11,14 +11,12 @@
             "id": "4e5357d548e2bdb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Clippings/Геозоны в Ceiba2 - LACCTV - Jira Service Management.md",
-                "mode": "source",
-                "source": false
+                "file": "img/Pasted image 20250424174425.png"
               },
-              "icon": "lucide-file",
-              "title": "Геозоны в Ceiba2 - LACCTV - Jira Service Management"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250424174425"
             }
           }
         ]
@@ -179,15 +177,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e5357d548e2bdb3",
+  "active": "4e666e34150dc2c4",
   "lastOpenFiles": [
-    "Pasted image 20250424174612.png",
-    "Pasted image 20250424174527.png",
-    "Pasted image 20250424174520.png",
-    "Pasted image 20250424174509.png",
-    "Pasted image 20250424174425.png",
-    "Описания/BSD07.md",
+    "img",
     "Clippings/Геозоны в Ceiba2 - LACCTV - Jira Service Management.md",
+    "PDF/Геозоны в Ceiba2 - LACCTV - Jira Service Management.pdf",
+    "img/Pasted image 20250424174612.png",
+    "img/Pasted image 20250424174527.png",
+    "img/Pasted image 20250424174520.png",
+    "img/Pasted image 20250424174509.png",
+    "img/Pasted image 20250424174425.png",
+    "Описания/BSD07.md",
     "Описания/BSD04.md",
     "Описания/BSD01.md",
     "Описания/BSD09.md",
@@ -206,7 +206,6 @@
     "PDF/BSD02.pdf",
     "PDF/BSD01.pdf",
     "Описания/Haisi H3520DV300.md",
-    "PDF/Haisi H3520DV300.pdf",
     "Описания/LBA3403 Development Board V1.0.md",
     "Паспорта оборудования/Видеорегистраторы/LA-AMRH08-4.md",
     "Паспорта оборудования/Видеорегистраторы/la-amrh04-4.md",
@@ -219,7 +218,6 @@
     "Паспорта оборудования/img/Pasted image 20250414153552.png",
     "Novatek/Список замечаний.md",
     "ОКТА/Геозоны.md",
-    "ОКТА/img/Pasted image 20250410163614.png",
     "Novatek/Прошивка регистраторов Novotech.md",
     "Architecture/MCP vs MVC.md",
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Объект Date в JavaScript.md",
