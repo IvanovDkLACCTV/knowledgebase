@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e5357d548e2bdb3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/Pasted image 20250424174425.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250424174425"
-            }
-          },
-          {
             "id": "88d3729483d927b7",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "Знай сложности алгоритмов"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,6 +181,7 @@
   },
   "active": "88d3729483d927b7",
   "lastOpenFiles": [
+    "img/Pasted image 20250424174425.png",
     "Clippings/Знай сложности алгоритмов.md",
     "img",
     "Clippings/Геозоны в Ceiba2 - LACCTV - Jira Service Management.md",
@@ -202,7 +190,6 @@
     "img/Pasted image 20250424174527.png",
     "img/Pasted image 20250424174520.png",
     "img/Pasted image 20250424174509.png",
-    "img/Pasted image 20250424174425.png",
     "Описания/BSD07.md",
     "Описания/BSD04.md",
     "Описания/BSD01.md",
@@ -239,7 +226,6 @@
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Цикл for...in в JavaScript.md",
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Цикл for...of в JavaScript.md",
     "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Итератор – JavaScript Iterators – Итератор в JS.md",
-    "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Поверхностное и глубокое копирование в JavaScript.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
