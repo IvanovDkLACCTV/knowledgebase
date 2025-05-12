@@ -11,11 +11,11 @@
 
 ## 📦 1. Структура проекта
 
-bash
+```bash
 
-КопироватьРедактировать
 
-`kafka-socket-app/ ├── docker-compose.yml ├── producer/ │   ├── Dockerfile │   └── index.js ├── consumer/ │   ├── Dockerfile │   └── index.js`
+`kafka-socket-app/ ├── docker-compose.yml ├── producer/ │   ├── Dockerfile │   └── index.js ├── consumer/ │   ├── Dockerfile │   └── index.js
+```
 
 ---
 
@@ -23,11 +23,13 @@ bash
 
 С Kafka, Zookeeper и двумя сервисами (producer и consumer):
 
-yaml
 
-КопироватьРедактировать
+```yaml
+
 
 `version: '3.8'  services:   zookeeper:     image: confluentinc/cp-zookeeper:7.5.0     environment:       ZOOKEEPER_CLIENT_PORT: 2181    kafka:     image: confluentinc/cp-kafka:7.5.0     ports:       - "9092:9092"     environment:       KAFKA_BROKER_ID: 1       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1     depends_on:       - zookeeper    producer:     build: ./producer     ports:       - "3000:3000"     environment:       KAFKA_BROKER: kafka:9092     depends_on:       - kafka    consumer:     build: ./consumer     depends_on:       - kafka`
+
+```
 
 ---
 
