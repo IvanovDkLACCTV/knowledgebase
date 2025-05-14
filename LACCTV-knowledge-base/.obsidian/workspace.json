@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "new files/Kafka-Socket.md",
-                "mode": "source",
+                "file": "Инструкции/Пульт ДУ.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka-Socket"
+              "title": "Пульт ДУ"
             }
           }
         ],
@@ -196,8 +196,11 @@
   },
   "active": "26d9f494e28f0610",
   "lastOpenFiles": [
-    "Novatek/Список замечаний v2.md",
+    "Инструкции/img/remote control.png",
     "new files/Kafka-Socket.md",
+    "Инструкции/Пульт ДУ.md",
+    "new files/Пульт ДУ.md",
+    "Novatek/Список замечаний v2.md",
     "PDF/Список замечаний v2.pdf",
     "Шаблоны/Таблица.md",
     "Novatek/Список замечаний v1.md",
@@ -239,9 +242,6 @@
     "Паспорта оборудования/img/Pasted image 20250414153552.png",
     "ОКТА/Геозоны.md",
     "Novatek/Прошивка регистраторов Novotech.md",
-    "Architecture/MCP vs MVC.md",
-    "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Объект Date в JavaScript.md",
-    "PurpleSchool/Knowledge-base/JS/Продвинутый синтаксис в JavaScript/Цикл for...in в JavaScript.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
