@@ -34,6 +34,18 @@
               "icon": "lucide-file",
               "title": "Render Tree"
             }
+          },
+          {
+            "id": "ad1b5a685512eda6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "JavaScript/img/Pasted image 20250523091946.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250523091946"
+            }
           }
         ],
         "currentTab": 1
@@ -194,11 +206,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e666e34150dc2c4",
+  "active": "26d9f494e28f0610",
   "lastOpenFiles": [
-    "img/Pasted image 20250523091253.png",
-    "Инструкции/Скачивание записи из регистратора без CMS.md",
+    "Pasted image 20250523092158.png",
+    "Novatek/Список замечаний v2.md",
+    "JavaScript/img/Pasted image 20250523091946.png",
+    "JavaScript/img/Pasted image 20250523091253.png",
+    "img/Pasted image 20250424174612.png",
+    "img/Pasted image 20250424174527.png",
+    "img/Pasted image 20250424174520.png",
+    "img/Pasted image 20250424174509.png",
+    "img/Pasted image 20250424174425.png",
     "JavaScript/Render Tree.md",
+    "JavaScript/img",
+    "JavaScript/img/Pasted image 20250523092047.png",
+    "Инструкции/Скачивание записи из регистратора без CMS.md",
     "JavaScript",
     "База знаний/Главы 5.18-5.24 Библия видеонаблюдения.md",
     "PDF/Главы 5.18-5.24 Библия видеонаблюдения.pdf",
@@ -206,19 +228,13 @@
     "Инструкции/img/remote control.png",
     "new files/Kafka-Socket.md",
     "new files/Пульт ДУ.md",
-    "Novatek/Список замечаний v2.md",
     "PDF/Список замечаний v2.pdf",
     "Шаблоны/Таблица.md",
     "Novatek/Список замечаний v1.md",
     "Clippings/Знай сложности алгоритмов.md",
-    "img/Pasted image 20250424174425.png",
     "img",
     "Clippings/Геозоны в Ceiba2 - LACCTV - Jira Service Management.md",
     "PDF/Геозоны в Ceiba2 - LACCTV - Jira Service Management.pdf",
-    "img/Pasted image 20250424174612.png",
-    "img/Pasted image 20250424174527.png",
-    "img/Pasted image 20250424174520.png",
-    "img/Pasted image 20250424174509.png",
     "Описания/BSD07.md",
     "Описания/BSD04.md",
     "Описания/BSD01.md",
@@ -230,7 +246,6 @@
     "Описания/BSD06.md",
     "PDF/BSD06.pdf",
     "Описания/BSD05.md",
-    "PDF/BSD05.pdf",
     "Описания/BSD03.md",
     "Описания/BSD02.md",
     "Описания/Haisi H3520DV300.md",
@@ -239,9 +254,6 @@
     "Паспорта оборудования/Видеорегистраторы/la-amrh04-4.md",
     "Паспорта оборудования/Видеорегистраторы/LA-AMRH04-1.md",
     "Паспорта оборудования/img/la-amrh04-1.png",
-    "Паспорта оборудования/img/la-amrh04-1-schema.png",
-    "Паспорта оборудования/img/Pasted image 20250414153146 1.png",
-    "Паспорта оборудования/img/Pasted image 20250414153146.png",
     "Weekly reports/Без названия.canvas"
   ]
 }
