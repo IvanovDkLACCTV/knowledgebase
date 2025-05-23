@@ -39,16 +39,18 @@
             "id": "ad1b5a685512eda6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "JavaScript/img/Pasted image 20250523091946.png"
+                "file": "JavaScript/Render Tree.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250523091946"
+              "icon": "lucide-file",
+              "title": "Render Tree"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,23 +208,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e666e34150dc2c4",
+  "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
+    "JavaScript/img/Pasted image 20250523091946.png",
+    "JavaScript/Render Tree.md",
+    "JavaScript/img/Pasted image 20250523092047.png",
+    "JavaScript/img/Pasted image 20250523092158.png",
+    "JavaScript/img/Pasted image 20250523093251.png",
     "JavaScript/img/Pasted image 20250523094002.png",
     "JavaScript/img.zip",
-    "JavaScript/img/Pasted image 20250523093251.png",
-    "JavaScript/img/Pasted image 20250523092158.png",
     "Novatek/Список замечаний v2.md",
-    "JavaScript/img/Pasted image 20250523091946.png",
     "JavaScript/img/Pasted image 20250523091253.png",
     "img/Pasted image 20250424174612.png",
     "img/Pasted image 20250424174527.png",
     "img/Pasted image 20250424174520.png",
     "img/Pasted image 20250424174509.png",
-    "img/Pasted image 20250424174425.png",
-    "JavaScript/Render Tree.md",
     "JavaScript/img",
-    "JavaScript/img/Pasted image 20250523092047.png",
     "Инструкции/Скачивание записи из регистратора без CMS.md",
     "JavaScript",
     "База знаний/Главы 5.18-5.24 Библия видеонаблюдения.md",
