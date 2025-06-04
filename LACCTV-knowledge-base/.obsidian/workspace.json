@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инструкции/Скачивание записи из регистратора без CMS.md",
-                "mode": "preview",
+                "file": "Prompts/Техописания.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Скачивание записи из регистратора без CMS"
+              "title": "Техописания"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Импульс",
+                "query": "запис",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,6 +210,14 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
+    "База знаний/Настройка отображения видео на экране регистратора.md",
+    "Prompts/Техописания.md",
+    "Prompts",
+    "TypeScript/Манипуляции с типами.md",
+    "Инструкции/Инструкция по настройке IO и выводу мониторов при замыкании тревожных входов.md",
+    "PurpleSchool/Knowledge-base/TS/Декораторы/Декораторы свойств и методов доступа в TypeScript.md",
+    "Clippings/Геозоны в Ceiba2 - LACCTV - Jira Service Management.md",
+    "Инструкции/Скачивание записи из регистратора без CMS.md",
     "Паспорта оборудования/Mini Tag.md",
     "Инструкции/Памятка по настройке сервера.md",
     "PDF/Памятка по настройке сервера.pdf",
@@ -229,7 +237,6 @@
     "JavaScript/img.zip",
     "Novatek/Список замечаний v2.md",
     "JavaScript/img",
-    "Инструкции/Скачивание записи из регистратора без CMS.md",
     "JavaScript",
     "База знаний/Главы 5.18-5.24 Библия видеонаблюдения.md",
     "PDF/Главы 5.18-5.24 Библия видеонаблюдения.pdf",
@@ -241,21 +248,14 @@
     "Novatek/Список замечаний v1.md",
     "Clippings/Знай сложности алгоритмов.md",
     "img",
-    "Clippings/Геозоны в Ceiba2 - LACCTV - Jira Service Management.md",
     "PDF/Геозоны в Ceiba2 - LACCTV - Jira Service Management.pdf",
     "Описания/BSD07.md",
     "Описания/BSD04.md",
     "Описания/BSD01.md",
     "Описания/BSD09.md",
-    "PDF/BSD09.pdf",
     "Описания/BSD08.md",
     "Описания/BSD06.md",
     "Описания/BSD05.md",
-    "Описания/BSD03.md",
-    "Описания/BSD02.md",
-    "Описания/Haisi H3520DV300.md",
-    "Описания/LBA3403 Development Board V1.0.md",
-    "Паспорта оборудования/Видеорегистраторы/LA-AMRH08-4.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
