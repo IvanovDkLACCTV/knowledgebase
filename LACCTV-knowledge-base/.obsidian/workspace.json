@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Фреймворки для документации.md",
+                "file": "Koa/Koa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Фреймворки для документации"
+              "title": "Koa"
             }
           }
         ],
@@ -210,8 +210,10 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
-    "JavaScript/Storybook.md",
     "JavaScript/Фреймворки для документации.md",
+    "Koa/Koa.md",
+    "Koa",
+    "JavaScript/Storybook.md",
     "JavaScript/Документирование React Native.md",
     "JavaScript/Swagger.md",
     "JavaScript/JSDoc.md",
@@ -254,8 +256,6 @@
     "Novatek/Список замечаний v1.md",
     "Clippings/Знай сложности алгоритмов.md",
     "img",
-    "PDF/Геозоны в Ceiba2 - LACCTV - Jira Service Management.pdf",
-    "Описания/BSD07.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
