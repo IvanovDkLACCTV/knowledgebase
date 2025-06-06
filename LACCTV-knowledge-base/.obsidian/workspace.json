@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/@ в JS.md",
+                "file": "JavaScript/JSDoc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@ в JS"
+              "title": "JSDoc"
             }
           }
         ],
@@ -210,8 +210,9 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
-    "Prompts/Техописания.md",
     "JavaScript/@ в JS.md",
+    "JavaScript/JSDoc.md",
+    "Prompts/Техописания.md",
     "База знаний/Настройка отображения видео на экране регистратора.md",
     "Prompts",
     "TypeScript/Манипуляции с типами.md",
@@ -255,7 +256,6 @@
     "Описания/BSD01.md",
     "Описания/BSD09.md",
     "Описания/BSD08.md",
-    "Описания/BSD06.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
