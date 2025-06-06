@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Swagger.md",
+                "file": "JavaScript/Документирование React Native.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Swagger"
+              "title": "Документирование React Native"
             }
           }
         ],
@@ -210,8 +210,9 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
-    "JavaScript/JSDoc.md",
     "JavaScript/Swagger.md",
+    "JavaScript/Документирование React Native.md",
+    "JavaScript/JSDoc.md",
     "JavaScript/@ в JS.md",
     "Prompts/Техописания.md",
     "База знаний/Настройка отображения видео на экране регистратора.md",
@@ -255,7 +256,6 @@
     "Описания/BSD07.md",
     "Описания/BSD04.md",
     "Описания/BSD01.md",
-    "Описания/BSD09.md",
     "Weekly reports/Без названия.canvas"
   ]
 }
