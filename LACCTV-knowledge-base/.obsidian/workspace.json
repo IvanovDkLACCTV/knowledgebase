@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Koa/Koa.md",
+                "file": "Курс ООП и алгоритмы/Структура курса и список тем.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Koa"
+              "title": "Структура курса и список тем"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 203.5
   },
   "right": {
     "id": "00b2ff8384be0007",
@@ -195,7 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +210,11 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
-    "Koa/Koa SQLite.md",
+    "Koa/Урок по Коа от Gemini.md",
+    "Курс ООП и алгоритмы/Структура курса и список тем.md",
+    "Курс ООП и алгоритмы",
     "Koa/Koa.md",
+    "Koa/Koa SQLite.md",
     "JavaScript/Фреймворки для документации.md",
     "Koa",
     "JavaScript/Storybook.md",
@@ -254,9 +256,6 @@
     "new files/Kafka-Socket.md",
     "new files/Пульт ДУ.md",
     "PDF/Список замечаний v2.pdf",
-    "Шаблоны/Таблица.md",
-    "Novatek/Список замечаний v1.md",
-    "img",
     "Weekly reports/Без названия.canvas"
   ]
 }
