@@ -157,3 +157,60 @@ index.html
 <% include partials/_navbar %>
     <!-- Подключим navbar из partials/_navbar.ejs -->
 ```
+
+изменим Index.html
+```html
+<h1><%- title %></h1>
+```
+
+app.js
+```javascript
+//Index page
+
+router.get("/", async (ctx) => {
+
+  await ctx.render("index", { title: "Things I Love" }) //рендерим шаблон index
+
+  log("GET request to /") //логируем запрос
+
+})
+```
+
+```javascript
+//В реальном проекте нужно использовать базу данных, но для простоты примера мы будем использовать статические данные
+
+const thingsILove = ["Coding", "Coffee", "Music", "Nature", "Traveling"] //массив с данными, которые мы будем отображать на странице
+
+...
+
+//Index page
+
+router.get("/", async (ctx) => {
+
+  await ctx.render("index", { title: "Things I Love", things: thingsILove }) //рендерим шаблон index
+
+  log("GET request to /") //логируем запрос
+
+})
+```
+
+index.html
+```html
+<ul class="list-group">
+
+  <!-- внутри <% %> пишем, как в JS -->
+
+  <% things.forEach(thing => { %>
+
+  <li class="list-group-item">
+
+    <%= thing %>
+
+    <!-- <%= нужен чтобы выводить переменные  -->
+
+  </li>
+
+  <% })%>
+
+</ul>
+```
