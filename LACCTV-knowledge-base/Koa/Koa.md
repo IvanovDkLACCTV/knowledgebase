@@ -1,3 +1,4 @@
+### Конспект **[туториалa по Koa](https://youtu.be/z84uTk5zmak?si=_dmWI42ddRb11Rr0)**
 ### Минимальный koa-server
 ```javascript
 const Koa = require("koa")
@@ -213,4 +214,111 @@ index.html
   <% })%>
 
 </ul>
+```
+
+Router:
+
+```javascript
+//Routes
+
+router.get("/", index)
+
+//функция для обработки GET запроса на корневой путь
+
+  
+
+async function index(ctx) {
+
+  await ctx.render("index", { title: "Things I Love", things: thingsILove }) //рендерим шаблон index
+
+  log("GET request to /") //логируем запрос
+
+}
+```
+
+добавим новый rout
+```javascript
+router.get("/add", showAdd) //обрабатываем GET запрос на /add
+
+  
+
+//функции для обработки GET запросов
+
+async function showAdd(ctx) {
+
+  await ctx.render("add", { title: "Add a Thing" }) //рендерим шаблон add
+
+  log("GET request to /add") //логируем запрос
+
+}
+```
+
+Создадим новый шаблон add.html
+```html
+<h1 class="display-mb-4">Add a Thing</h1>
+
+<form action="/add" method="POST">
+
+  <div class="form-group">
+
+    <input
+
+      type="text"
+
+      name="thing"
+
+      class="form-control form-control-lg"
+
+      placeholder="Enter a thing you love"
+
+    />
+
+    <input type="submit" value="Add" class="btn btn-dark btn-lg mt-3" />
+
+    <a href="/" class="btn btn-danger btn-lg mt-3">Cancel</a>
+
+  </div>
+
+</form>
+```
+
+теперь создадим обработчик post запроса
+```javascript
+const bodyParser = require("koa-bodyparser") //подключаем модуль для парсинга тела запроса
+//Body Parser Middleware
+
+app.use(bodyParser()) //включаем парсер тела запроса
+...
+
+router.post("/add", addThing) //обрабатываем POST запрос на /add
+
+...
+
+//функция для обработки POST запроса
+
+async function addThing(ctx) {
+
+  const body = ctx.request.body //получаем данные из тела запроса
+
+  thingsILove.push(body.things) //добавляем новый элемент в массив
+
+  ctx.redirect("/") //перенаправляем на главную страницу
+
+}
+```
+
+предварительно установив *pnpm i koa-bodyparser*
+
+Добавляем дополнительные свойства к контексту приложения
+```javascript
+app.context.user = 'Guest' //добавляем свойство user к контексту приложения
+
+...
+
+router.get("/test", (ctx) => (ctx.body = `Hi ${ctx.user}`)) 
+```
+
+Обработчик параметров
+```javascript
+router.get("/test2/:name", (ctx) => (ctx.body = `Hi ${ctx.params.name}`)) //тестовый маршрут с параметром
 ```
