@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Неотсортированное/SEO lacctv.ru.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -210,9 +210,9 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
+    "Неотсортированное/SEO lacctv.ru.md",
     "JavaScript/Асинхронность в JS.md",
     "JavaScript/Just use HTML.md",
-    "Неотсортированное/SEO lacctv.ru.md",
     "Инструкции/Добавление сервиса с помощью NSSM.md",
     "Koa/Koa.md",
     "Курс ООП и алгоритмы/Структура курса и список тем.md",
