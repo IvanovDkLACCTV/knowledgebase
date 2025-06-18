@@ -33,3 +33,127 @@
 В конечном итоге, асинхронность обеспечивает отзывчивость интерфейсов, делая пользователей счастливыми и лояльными.
 
 [Ссылка на видео по теме](https://youtu.be/wheJ0As4m38?si=DSbbyX4C5iMcJI2C)
+
+---
+
+#### **Проблема синхронного выполнения**
+Когда JavaScript работает синхронно, задачи выполняются строго по очереди. Пока одна задача не завершена, следующие ждут. Это вызывает блокировку интерфейса.
+
+**Пример в коде**:  
+```javascript
+// Синхронная функция, блокирующая поток
+function blockUI() {
+  // Долгая операция (например, обработка большого массива)
+  const start = Date.now();
+  while (Date.now() - start < 3000) {} // 3-секундная блокировка
+  console.log("Завершено!");
+}
+
+button.addEventListener("click", blockUI); // При клике интерфейс "зависнет"
+```
+- **Результат**: Приложение не реагирует на клики, анимации, пока задача не завершится.
+
+---
+
+#### **Решение: асинхронность и Event Loop**
+JavaScript использует **Event Loop** для обработки асинхронных операций без блокировки главного потока.  
+Ключевые компоненты:
+1. **Call Stack**  
+   Выполняет синхронные задачи (последний пришел — первый вышел).
+2. **Web APIs**  
+   Обрабатывает асинхронные операции (`setTimeout`, `fetch`, события DOM).
+3. **Callback Queue**  
+   Очередь колбэков от Web API, готовых к выполнению.
+4. **Event Loop**  
+   Постоянно проверяет Call Stack. Если он пуст — перемещает задачи из Callback Queue в Call Stack.
+
+![Event Loop](https://miro.medium.com/v2/resize:fit:720/format:webp/1*FA9NGxNB6-v1oI2qGEtlRQ.png)  
+*Схема работы Event Loop ([источник](https://www.freecodecamp.org/news/javascript-event-loop-explained/))*
+
+---
+
+#### **Пример работы**
+```javascript
+console.log("Start");
+
+setTimeout(() => console.log("Timeout"), 0);
+
+Promise.resolve().then(() => console.log("Promise"));
+
+console.log("End");
+```
+
+**Вывод**:  
+```
+Start
+End
+Promise
+Timeout
+```
+
+**Объяснение**:
+1. Синхронные задачи (`console.log("Start")`, `console.log("End")`) попадают в Call Stack.
+2. `setTimeout` передается в **Web API**, его колбэк позже попадает в Callback Queue.
+3. `Promise` попадает в **микротаски** (приоритетнее Callback Queue).
+4. Event Loop сначала выполняет микротаски, затем задачи из Callback Queue.
+
+---
+
+#### **Золотые правила асинхронности**
+1. **Не блокируй главный поток**  
+   Долгие задачи (сеть, файлы, вычисления) делегируйте Web API.  
+   ```javascript
+   // Плохо: синхронный тяжелый расчет
+   function syncCalc() { /* блокирует UI */ }
+
+   // Хорошо: использование Web Workers для выноса в фоновый поток
+   const worker = new Worker("worker.js");
+   worker.postMessage(data);
+   ```
+
+2. **Информируй пользователя**  
+   Показывайте статус фоновых задач (спиннеры, прогресс-бары).  
+   ```javascript
+   button.disabled = true; 
+   showSpinner();
+
+   fetch("https://api.example/data")
+     .then(data => updateUI(data))
+     .finally(() => {
+       hideSpinner();
+       button.disabled = false;
+     });
+   ```
+
+3. **Обрабатывай ошибки в асинхронных операциях**  
+   Всегда предусматривайте сценарии сбоя.  
+   ```javascript
+   fetch("https://api.example/data")
+     .catch(error => {
+       showError("Ошибка сети. Повторите попытку.");
+       showRetryButton(); // Дать пользователю контроль
+     });
+   ```
+
+---
+
+#### **Где применяется асинхронность**
+- **Мессенджеры**: получение сообщений без прерывания ввода текста.  
+- **Соцсети**: подгрузка постов во время скролла.  
+- **Онлайн-игры**: синхронизация с сервером без замирания интерфейса.
+
+---
+
+#### **Ресурсы для углубления**
+1. [JavaScript Visualized: Event Loop (Lydia Hallie)](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif) — объяснение с анимациями.  
+2. [Что такое Event Loop? (JavaScript.ru)](https://learn.javascript.ru/event-loop) — теория и примеры.  
+3. [Доклад Philip Roberts: What the heck is the event loop?](https://youtu.be/8aGhZQkoFbQ) — 26-минутное видео с визуализацией.  
+4. [Микротаски и макротаски](https://javascript.info/microtask-queue) — приоритеты выполнения.
+
+---
+
+#### **Итог**
+- **Синхронная модель**: очереди задач → блокировка UI → недовольные пользователи.  
+- **Асинхронная модель**: делегирование через Event Loop → отзывчивый интерфейс.  
+
+Event Loop — это не "магия", а механизм координации между Call Stack, Web API и очередями задач. Понимание его работы критично для создания плавных интерфейсов.
