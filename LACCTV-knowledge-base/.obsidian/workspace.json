@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Неотсортированное/SEO lacctv.ru.md",
+                "file": "JavaScript/Just use HTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SEO lacctv.ru"
+              "title": "Just use HTML"
             }
           }
         ],
@@ -210,8 +210,9 @@
   },
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
-    "Инструкции/Добавление сервиса с помощью NSSM.md",
     "Неотсортированное/SEO lacctv.ru.md",
+    "JavaScript/Just use HTML.md",
+    "Инструкции/Добавление сервиса с помощью NSSM.md",
     "Koa/Koa.md",
     "Курс ООП и алгоритмы/Структура курса и список тем.md",
     "Socket.IO/CheatSheet.md",
@@ -253,7 +254,6 @@
     "Novatek/Список замечаний v2.md",
     "JavaScript/img",
     "JavaScript",
-    "База знаний/Главы 5.18-5.24 Библия видеонаблюдения.md",
     "PDF/Главы 5.18-5.24 Библия видеонаблюдения.pdf",
     "PDF/Список замечаний v2.pdf",
     "Weekly reports/Без названия.canvas"
