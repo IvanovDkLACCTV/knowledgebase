@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Неотсортированное/SEO lacctv.ru.md",
-                "mode": "preview",
+                "file": "JavaScript/Замыкани.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SEO lacctv.ru"
+              "title": "Замыкани"
             }
           }
         ],
@@ -211,6 +211,7 @@
   "active": "ad1b5a685512eda6",
   "lastOpenFiles": [
     "Неотсортированное/SEO lacctv.ru.md",
+    "JavaScript/Замыкани.md",
     "JavaScript/Асинхронность в JS.md",
     "JavaScript/Just use HTML.md",
     "Инструкции/Добавление сервиса с помощью NSSM.md",
@@ -250,7 +251,6 @@
     "PDF/Распиновка GPS модуля.pdf",
     "Jira/img/Pasted image 20250523103846.png",
     "Jira/img/Pasted image 20250523103739.png",
-    "JavaScript/Render Tree.md",
     "JavaScript/img.zip",
     "JavaScript/img",
     "JavaScript",
