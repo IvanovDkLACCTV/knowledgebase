@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Замыкани.md",
+                "file": "JavaScript/Замыкания.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Замыкани"
+              "title": "Замыкания"
             }
           }
         ],
@@ -208,11 +208,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e666e34150dc2c4",
+  "active": "bb54182c82383c0b",
   "lastOpenFiles": [
     "JavaScript/img/Pasted image 20250619085717.png",
     "Неотсортированное/SEO lacctv.ru.md",
-    "JavaScript/Замыкани.md",
+    "JavaScript/Замыкания.md",
     "JavaScript/Асинхронность в JS.md",
     "JavaScript/Just use HTML.md",
     "Инструкции/Добавление сервиса с помощью NSSM.md",
