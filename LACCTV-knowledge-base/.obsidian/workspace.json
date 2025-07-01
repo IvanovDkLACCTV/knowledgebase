@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Описания/01-07-2025/LA-2DOPCB.md",
+                "file": "Описания/01-07-2025/LA-BS0206.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LA-2DOPCB"
+              "title": "LA-BS0206"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "bb54182c82383c0b",
   "lastOpenFiles": [
-    "Описания/01-07-2025/LA-6PIN1075M.md",
     "Описания/01-07-2025/LA-2DOPCB.md",
+    "Описания/01-07-2025/LA-BS0206.md",
+    "Описания/01-07-2025/LA-6PIN1075M.md",
     "Описания/01-07-2025/LA-25IRPCB.md",
     "Описания/01-07-2025/LA-36IRPCB.md",
     "Описания/01-07-2025/LA-CP032515.md",
@@ -265,7 +266,6 @@
     "Koa/Koa.md",
     "Курс ООП и алгоритмы/Структура курса и список тем.md",
     "Socket.IO/CheatSheet.md",
-    "Koa/Урок по Коа от Gemini.md",
     "Курс ООП и алгоритмы",
     "Koa",
     "Prompts",
