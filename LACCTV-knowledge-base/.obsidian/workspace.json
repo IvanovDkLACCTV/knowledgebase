@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LA-Knowladgebase/Stack list.md",
+                "file": "LA-Knowladgebase/ТЗ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack list"
+              "title": "ТЗ"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "26d9f494e28f0610",
   "lastOpenFiles": [
-    "LA-Knowladgebase/Stack overview.md",
     "LA-Knowladgebase/Stack list.md",
+    "LA-Knowladgebase/ТЗ.md",
+    "LA-Knowladgebase/Stack overview.md",
     "Описания/01-07-2025/LA-2DOPCB.md",
     "LA-Knowladgebase",
     "Описания/01-07-2025/LA-6PIN1075M.md",
@@ -268,7 +269,6 @@
     "JavaScript/Замыкания.md",
     "JavaScript/img/Pasted image 20250619085717.png",
     "JavaScript/Just use HTML.md",
-    "Инструкции/Добавление сервиса с помощью NSSM.md",
     "Курс ООП и алгоритмы",
     "Koa",
     "Prompts",
