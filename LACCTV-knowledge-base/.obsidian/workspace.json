@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LA-Knowladgebase/Архитектура и стек.md",
+                "file": "LA-Knowladgebase/Stack list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Архитектура и стек"
+              "title": "Stack list"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "26d9f494e28f0610",
   "lastOpenFiles": [
+    "LA-Knowladgebase/Stack overview.md",
+    "LA-Knowladgebase/Stack list.md",
     "Описания/01-07-2025/LA-2DOPCB.md",
-    "LA-Knowladgebase/Архитектура и стек.md",
     "LA-Knowladgebase",
     "Описания/01-07-2025/LA-6PIN1075M.md",
     "Описания/01-07-2025/LA-BS0206.md",
@@ -268,7 +269,6 @@
     "JavaScript/img/Pasted image 20250619085717.png",
     "JavaScript/Just use HTML.md",
     "Инструкции/Добавление сервиса с помощью NSSM.md",
-    "Koa/Koa.md",
     "Курс ООП и алгоритмы",
     "Koa",
     "Prompts",
