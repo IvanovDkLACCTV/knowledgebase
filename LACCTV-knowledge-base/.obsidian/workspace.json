@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LA-Knowladgebase/Стратегия запуска 07-07-2025.md",
+                "file": "LA-Knowladgebase/AI tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Стратегия запуска 07-07-2025"
+              "title": "AI tools"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "26d9f494e28f0610",
   "lastOpenFiles": [
-    "LA-Knowladgebase/План разработки 07-07-2025.md",
     "LA-Knowladgebase/Стратегия запуска 07-07-2025.md",
+    "LA-Knowladgebase/AI tools.md",
+    "LA-Knowladgebase/План разработки 07-07-2025.md",
     "LA-Knowladgebase/PlantUML вертикальный вариант 07-07-2025.md",
     "LA-Knowladgebase/Архитектура 07-07-2025.md",
     "LA-Knowladgebase/Архитектура UML 07-07-2025.md",
@@ -267,7 +268,6 @@
     "Architecture/REST API.md",
     "JavaScript/Особенности асинхронности в JS.md",
     "Неотсортированное/Вопросы по техподдержке.md",
-    "Неотсортированное/SEO lacctv.ru.md",
     "JavaScript/img/Pasted image 20250619085717.png",
     "Курс ООП и алгоритмы",
     "Koa",
