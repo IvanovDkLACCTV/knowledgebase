@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LA-Knowladgebase/Архитектура 07-07-2025.md",
+                "file": "LA-Knowladgebase/План разработки 07-07-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Архитектура 07-07-2025"
+              "title": "План разработки 07-07-2025"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "26d9f494e28f0610",
   "lastOpenFiles": [
-    "LA-Knowladgebase/ТЗ 04-07-2025.md",
     "LA-Knowladgebase/Архитектура 07-07-2025.md",
+    "LA-Knowladgebase/План разработки 07-07-2025.md",
+    "LA-Knowladgebase/ТЗ 04-07-2025.md",
     "LA-Knowladgebase/ТЗ 07-07-2025 - 1.md",
     "LA-Knowladgebase/Stack list.md",
     "LA-Knowladgebase/Stack overview.md",
@@ -267,7 +268,6 @@
     "Неотсортированное/Вопросы по Ceiba2.md",
     "JavaScript/Семафор.md",
     "JavaScript/Асинхронность в JS.md",
-    "Паспорта оборудования/SZGH-T990-B-6.md",
     "JavaScript/img/Pasted image 20250619085717.png",
     "Курс ООП и алгоритмы",
     "Koa",
