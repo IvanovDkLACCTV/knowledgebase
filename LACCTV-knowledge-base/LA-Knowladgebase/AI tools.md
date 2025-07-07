@@ -34,7 +34,7 @@
 
 ## 🧠 Cody (Sourcegraph) — закроется
 
-- Взамен доступны стабильные альтернативы: **GitHub Copilot**, **Tabnine**, **Codeium**, **Cursor** и др. ([swimm.io](https://swimm.io/learn/ai-tools-for-developers/7-sourcegraph-cody-alternatives-you-should-know?utm_source=chatgpt.com "7 Sourcegraph Cody Alternatives You Should Know - Swimm")).
+- Взамен доступны стабильные альтернативы: **GitHub Copilot**, **Tabnine**, **Codeium**, **Cursor** и др. 
     
 - Например, **Cursor** — отдельный AI‑редактор с автодополнением и чат-интерфейсом, а **Tabnine** и **Codeium** дают AI-подсказки в любой IDE.
     
