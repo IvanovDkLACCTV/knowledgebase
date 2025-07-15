@@ -7,7 +7,7 @@
 		{"id":"4a0cffc22640b5fb","type":"text","text":"User","x":160,"y":-720,"width":105,"height":60,"color":"5"},
 		{"id":"2fb44f489e6d9fd8","type":"text","text":"Admin","x":-155,"y":-720,"width":120,"height":62,"color":"1"},
 		{"id":"db06f18ee806725f","type":"text","text":"ML API","x":465,"y":-325,"width":115,"height":51,"color":"2"},
-		{"id":"1059608cda0bac43","type":"text","text":"Telegram","x":620,"y":-440,"width":250,"height":60,"color":"6"},
+		{"id":"1059608cda0bac43","type":"text","text":"Telegram","x":620,"y":-440,"width":160,"height":60,"color":"6"},
 		{"id":"c1ca995e3dbb7303","type":"text","text":"Base of Acts (Django API)","x":-500,"y":-580,"width":250,"height":60,"color":"2"},
 		{"id":"84f51247c99ee4fb","x":-117,"y":37,"width":120,"height":86,"color":"1","type":"text","text":"MinIO"},
 		{"id":"fe3984f913cf9606","x":-330,"y":40,"width":160,"height":120,"color":"#2d66eb","type":"text","text":"PostgreSQL"},
@@ -15,7 +15,8 @@
 		{"id":"ad5cba28bcbd85a3","x":-620,"y":40,"width":160,"height":93,"type":"text","text":"LocalStorage/IndexedDB"},
 		{"id":"542213df00b48169","x":720,"y":-274,"width":200,"height":70,"color":"3","type":"text","text":"PyCharm \n(data analyzing)"},
 		{"id":"450dc517c9ca13c5","x":704,"y":-170,"width":233,"height":60,"color":"3","type":"text","text":"OpenCV\n(image analizing)"},
-		{"id":"860bd8ff04bed825","x":566,"y":29,"width":179,"height":71,"color":"#8a0094","type":"text","text":"GitHub Actions"}
+		{"id":"860bd8ff04bed825","x":566,"y":29,"width":179,"height":71,"color":"#8a0094","type":"text","text":"GitHub Actions"},
+		{"id":"f7f75c3ddcf4be57","x":-657,"y":-140,"width":197,"height":60,"color":"#13cd1f","type":"text","text":"Keykloak (Auth)"}
 	],
 	"edges":[
 		{"id":"82f44dec7344b790","fromNode":"5e01cfa700971cad","fromSide":"top","toNode":"2fb44f489e6d9fd8","toSide":"bottom"},
@@ -51,6 +52,9 @@
 		{"id":"7ae517c93c40e123","fromNode":"1059608cda0bac43","fromSide":"right","toNode":"450dc517c9ca13c5","toSide":"right","color":"6"},
 		{"id":"668276e571c61f99","fromNode":"542213df00b48169","fromSide":"left","toNode":"db06f18ee806725f","toSide":"right","color":"3"},
 		{"id":"4f693e41408f1884","fromNode":"860bd8ff04bed825","fromSide":"right","toNode":"542213df00b48169","toSide":"right","color":"#000000"},
-		{"id":"ab553fe36d5117c8","fromNode":"4714f0b8c80ff5f0","fromSide":"right","toNode":"860bd8ff04bed825","toSide":"left","color":"#000000"}
+		{"id":"ab553fe36d5117c8","fromNode":"4714f0b8c80ff5f0","fromSide":"right","toNode":"860bd8ff04bed825","toSide":"left","color":"#000000"},
+		{"id":"621c7a7f75e6626c","fromNode":"1059608cda0bac43","fromSide":"top","toNode":"f7f75c3ddcf4be57","toSide":"top","color":"6"},
+		{"id":"55f922184fc314b0","fromNode":"f7f75c3ddcf4be57","fromSide":"bottom","toNode":"4714f0b8c80ff5f0","toSide":"top","color":"4"},
+		{"id":"75bd10aec629bad7","fromNode":"4714f0b8c80ff5f0","fromSide":"top","toNode":"f7f75c3ddcf4be57","toSide":"bottom","color":"4"}
 	]
 }
