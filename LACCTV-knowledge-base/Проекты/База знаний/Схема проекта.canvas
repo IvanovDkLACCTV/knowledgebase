@@ -6,7 +6,7 @@
 		{"id":"063f561cf17af3da","type":"text","text":"Expo (mobile)","x":235,"y":-440,"width":250,"height":60,"color":"4"},
 		{"id":"4a0cffc22640b5fb","type":"text","text":"User","x":160,"y":-720,"width":105,"height":60,"color":"5"},
 		{"id":"2fb44f489e6d9fd8","type":"text","text":"Admin","x":-155,"y":-720,"width":120,"height":62,"color":"1"},
-		{"id":"db06f18ee806725f","type":"text","text":"ML","x":465,"y":-325,"width":95,"height":51,"color":"2"},
+		{"id":"db06f18ee806725f","type":"text","text":"ML API","x":465,"y":-325,"width":115,"height":51,"color":"2"},
 		{"id":"1059608cda0bac43","type":"text","text":"Telegram","x":620,"y":-440,"width":250,"height":60,"color":"6"},
 		{"id":"c1ca995e3dbb7303","type":"text","text":"Base of Acts (Django API)","x":-500,"y":-580,"width":250,"height":60,"color":"2"},
 		{"id":"84f51247c99ee4fb","x":-117,"y":37,"width":120,"height":86,"color":"1","type":"text","text":"MinIO"},
@@ -51,6 +51,6 @@
 		{"id":"7ae517c93c40e123","fromNode":"1059608cda0bac43","fromSide":"right","toNode":"450dc517c9ca13c5","toSide":"right","color":"6"},
 		{"id":"668276e571c61f99","fromNode":"542213df00b48169","fromSide":"left","toNode":"db06f18ee806725f","toSide":"right","color":"3"},
 		{"id":"4f693e41408f1884","fromNode":"860bd8ff04bed825","fromSide":"right","toNode":"542213df00b48169","toSide":"right","color":"#000000"},
-		{"id":"ab553fe36d5117c8","fromNode":"4714f0b8c80ff5f0","fromSide":"right","toNode":"860bd8ff04bed825","toSide":"left"}
+		{"id":"ab553fe36d5117c8","fromNode":"4714f0b8c80ff5f0","fromSide":"right","toNode":"860bd8ff04bed825","toSide":"left","color":"#000000"}
 	]
 }
