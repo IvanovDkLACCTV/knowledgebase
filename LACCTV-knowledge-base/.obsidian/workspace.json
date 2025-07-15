@@ -95,14 +95,10 @@
             "id": "3de7db871600b9ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Проекты/База знаний/Steps & stages 15-07-2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Steps & stages 15-07-2025"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
         ],
@@ -266,8 +262,8 @@
   },
   "active": "3de7db871600b9ab",
   "lastOpenFiles": [
-    "Проекты/Ceiba2/Steps & stages 15-07-2025.md",
     "Проекты/База знаний/Steps & stages 15-07-2025.md",
+    "Проекты/Ceiba2/Steps & stages 15-07-2025.md",
     "Проекты/Файлообменник/Steps & stages 15-07-2025.md",
     "Неотсортированное/Читклуб 7.1 7.6.md",
     "Проекты/Файлообменник",

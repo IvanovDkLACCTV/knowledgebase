@@ -5,7 +5,7 @@
 3. [ ] Развернуть Payload CMS 3.0
 4. [ ] Связать Payload CMS c Fumadocs
 5. [ ] Авторизация (Разбить на роли)
-6. [ ] Аунтетификация (NextAuth или Keykloc)
+6. [ ] Аутентификация (NextAuth или Keykloc)
 7. [ ] Связать с GitHub Actions
 8. [ ] Настроить выгрузку из Obsidian
 9. [ ] Протестировать PWA
