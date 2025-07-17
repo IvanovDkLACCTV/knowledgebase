@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Проекты/База знаний/Структура монорепозитория.md",
+                "file": "Проекты/База знаний/Инициализация проекта.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Структура монорепозитория"
+              "title": "Инициализация проекта"
             }
           }
         ],
@@ -267,6 +267,7 @@
   "active": "3de7db871600b9ab",
   "lastOpenFiles": [
     "Проекты/База знаний/Структура монорепозитория.md",
+    "Проекты/База знаний/Инициализация проекта.md",
     "Неотсортированное/CV.md",
     "Architecture/Выбор архитектуры.md",
     "Курс ООП и алгоритмы/Структура курса и список тем.md",
@@ -297,7 +298,6 @@
     "LA-Knowladgebase/ТЗ 04-07-2025.md",
     "LA-Knowladgebase/ТЗ 07-07-2025 - 1.md",
     "LA-Knowladgebase/Stack list.md",
-    "LA-Knowladgebase/Stack overview.md",
     "LA-Knowladgebase",
     "Проекты/CMS 2.0",
     "Описания/01-07-2025.zip",
