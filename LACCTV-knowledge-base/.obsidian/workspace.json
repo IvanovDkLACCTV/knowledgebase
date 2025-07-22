@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/TS for JS devs.md",
+                "file": "База знаний/Ссылки на курсы-тренажёры.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TS for JS devs"
+              "title": "Ссылки на курсы-тренажёры"
             }
           }
         ],
@@ -280,6 +280,14 @@
   },
   "active": "75d488a4f9330951",
   "lastOpenFiles": [
+    "JavaScript/Асинхронность в JS.md",
+    "База знаний/Ссылки на курсы-тренажёры.md",
+    "JavaScript/Документирование React Native.md",
+    "JavaScript/Замыкания.md",
+    "JavaScript/Особенности асинхронности в JS.md",
+    "JavaScript/Фреймворки для документации.md",
+    "JavaScript/Семафор.md",
+    "JavaScript/Just use HTML.md",
     "TypeScript/TS for JS devs.md",
     "Проекты/База знаний/Инициализация проекта.md",
     "Проекты/База знаний/Структура монорепозитория.md",
@@ -303,15 +311,7 @@
     "Неотсортированное/Список сайтов доступных только через Tor.md",
     "Novatek/Список замечаний v2.md",
     "База знаний/AI assistants 07-2025.md",
-    "JavaScript/Асинхронность в JS.md",
     "LA-Knowladgebase/AI tools.md",
-    "LA-Knowladgebase/Стратегия запуска 07-07-2025.md",
-    "LA-Knowladgebase/План разработки 07-07-2025.md",
-    "LA-Knowladgebase/PlantUML вертикальный вариант 07-07-2025.md",
-    "LA-Knowladgebase/Архитектура 07-07-2025.md",
-    "LA-Knowladgebase/Архитектура UML 07-07-2025.md",
-    "LA-Knowladgebase/ТЗ 04-07-2025.md",
-    "LA-Knowladgebase/ТЗ 07-07-2025 - 1.md",
     "LA-Knowladgebase",
     "Проекты/CMS 2.0",
     "Описания/01-07-2025.zip",
