@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/TS full course.md",
+                "file": "Описания/46Y.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TS full course"
-            }
-          },
-          {
-            "id": "66cad1e2c66f0019",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "46Y"
             }
           },
           {
@@ -131,8 +119,7 @@
               "title": "Ссылки на курсы-тренажёры"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -290,10 +277,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "66cad1e2c66f0019",
+  "active": "88d3729483d927b7",
   "lastOpenFiles": [
-    "Неотсортированное/Список сайтов доступных только через Tor.md",
     "TypeScript/TS full course.md",
+    "Описания/46Y.md",
+    "Неотсортированное/Список сайтов доступных только через Tor.md",
     "База знаний/AI assistants 07-2025.md",
     "База знаний/Ссылки на курсы-тренажёры.md",
     "JavaScript/Асинхронность в JS.md",
@@ -323,7 +311,6 @@
     "Проекты",
     "PDF/Читклуб 7.1 7.6.pdf",
     "Неотсортированное/WiFi Hongdian.md",
-    "Novatek/Список замечаний v2.md",
     "LA-Knowladgebase",
     "Проекты/CMS 2.0",
     "Описания/01-07-2025.zip",
