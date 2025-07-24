@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Неотсортированное/Список сайтов доступных только через Tor.md",
+                "file": "TypeScript/TS full course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Список сайтов доступных только через Tor"
+              "title": "TS full course"
+            }
+          },
+          {
+            "id": "66cad1e2c66f0019",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           },
           {
@@ -120,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +155,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -268,20 +280,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75d488a4f9330951",
+  "active": "66cad1e2c66f0019",
   "lastOpenFiles": [
-    "JavaScript/Асинхронность в JS.md",
+    "Неотсортированное/Список сайтов доступных только через Tor.md",
+    "TypeScript/TS full course.md",
+    "База знаний/AI assistants 07-2025.md",
     "База знаний/Ссылки на курсы-тренажёры.md",
+    "JavaScript/Асинхронность в JS.md",
     "JavaScript/Документирование React Native.md",
     "JavaScript/Замыкания.md",
     "JavaScript/Особенности асинхронности в JS.md",
@@ -308,10 +323,7 @@
     "Проекты",
     "PDF/Читклуб 7.1 7.6.pdf",
     "Неотсортированное/WiFi Hongdian.md",
-    "Неотсортированное/Список сайтов доступных только через Tor.md",
     "Novatek/Список замечаний v2.md",
-    "База знаний/AI assistants 07-2025.md",
-    "LA-Knowladgebase/AI tools.md",
     "LA-Knowladgebase",
     "Проекты/CMS 2.0",
     "Описания/01-07-2025.zip",
