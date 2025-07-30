@@ -8,59 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88d3729483d927b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Описания/46Y.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "46Y"
-            }
-          },
-          {
-            "id": "26d9f494e28f0610",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "База знаний/AI assistants 07-2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI assistants 07-2025"
-            }
-          },
-          {
-            "id": "ad1b5a685512eda6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Неотсортированное/Вопросы по техподдержке.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Вопросы по техподдержке"
-            }
-          },
-          {
             "id": "cb8995131f15da30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Асинхронность в JS.md",
+                "file": "JavaScript/Семафор.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Асинхронность в JS"
+              "title": "Семафор"
             }
           },
           {
@@ -277,46 +235,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88d3729483d927b7",
+  "active": "cb8995131f15da30",
   "lastOpenFiles": [
-    "TypeScript/TS full course.md",
-    "Описания/46Y.md",
-    "Неотсортированное/Список сайтов доступных только через Tor.md",
-    "База знаний/AI assistants 07-2025.md",
-    "База знаний/Ссылки на курсы-тренажёры.md",
+    "JavaScript/Особенности асинхронности в JS.md",
+    "JavaScript/Just use HTML.md",
+    "JavaScript/Render Tree.md",
+    "JavaScript/Классы/Приватные поля.md",
+    "JavaScript/Классы.zip",
+    "JavaScript/Классы/Статические методы класса.md",
+    "JavaScript/Классы/Setter.md",
+    "JavaScript/Классы/Getter.md",
+    "JavaScript/Классы",
     "JavaScript/Асинхронность в JS.md",
+    "JavaScript/Demi Murych.zip",
+    "JavaScript/Собес Demi Murych дополнение.md",
+    "JavaScript/Demi Murych/Собес Demi Murych дополнение.md",
+    "JavaScript/Demi Murych/Demi Murych JS собес.md",
+    "JavaScript/Demi Murych",
+    "JavaScript/Новая папка",
+    "JavaScript/Demi Murych JS собес.md",
+    "Неотсортированное/Вопросы по техподдержке.md",
+    "JavaScript/ООП в JS c примером.zip",
+    "База знаний/AI assistants 07-2025.md",
+    "JavaScript/К примеру по ООП.md",
+    "JavaScript/ООП в JS c примером/oop_js_examples.html",
+    "JavaScript/ООП в JS c примером/К примеру по ООП.md",
+    "JavaScript/ООП в JS c примером/ООП в JS.md",
+    "JavaScript/ООП в JS c примером",
+    "JavaScript/ООП в JS.md",
+    "JavaScript/oop_js_examples.html",
+    "Описания/46Y.md",
+    "TypeScript/TS full course.md",
+    "Неотсортированное/Список сайтов доступных только через Tor.md",
+    "База знаний/Ссылки на курсы-тренажёры.md",
     "JavaScript/Документирование React Native.md",
     "JavaScript/Замыкания.md",
-    "JavaScript/Особенности асинхронности в JS.md",
     "JavaScript/Фреймворки для документации.md",
     "JavaScript/Семафор.md",
-    "JavaScript/Just use HTML.md",
-    "TypeScript/TS for JS devs.md",
-    "Проекты/База знаний/Инициализация проекта.md",
-    "Проекты/База знаний/Структура монорепозитория.md",
-    "Неотсортированное/CV.md",
-    "Architecture/Выбор архитектуры.md",
-    "Курс ООП и алгоритмы/Структура курса и список тем.md",
-    "Проекты/База знаний/Steps & stages 15-07-2025.md",
     "Проекты/База знаний/Схема проекта.canvas",
-    "Инструкции/Инструкция по настройке IO и выводу мониторов при замыкании тревожных входов.md",
-    "Инструкции/Инструкция по замене звуковой дорожки с USB носителя.md",
-    "Проекты/Ceiba2/Steps & stages 15-07-2025.md",
-    "Проекты/Файлообменник/Steps & stages 15-07-2025.md",
-    "Неотсортированное/Читклуб 7.1 7.6.md",
     "Проекты/Файлообменник",
-    "Проекты/База знаний",
-    "Проекты/Ceiba2",
-    "Проекты/Без названия.md",
-    "Проекты",
-    "PDF/Читклуб 7.1 7.6.pdf",
-    "Неотсортированное/WiFi Hongdian.md",
-    "LA-Knowladgebase",
-    "Проекты/CMS 2.0",
-    "Описания/01-07-2025.zip",
-    "Описания/01-07-2025",
     "JavaScript/img/Pasted image 20250619085717.png",
-    "Курс ООП и алгоритмы",
     "Инструкции/img/Pasted image 20250526134112.png",
     "Инструкции/img/Pasted image 20250526134616.png",
     "Инструкции/img/Pasted image 20250526134557.png",

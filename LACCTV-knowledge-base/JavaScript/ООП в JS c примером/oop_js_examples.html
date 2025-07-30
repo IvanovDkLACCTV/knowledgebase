@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООП в JavaScript - Примеры кода</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            margin-bottom: 30px;
+            border-radius: 20px;
+            padding: 25px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .section h2 {
+            color: #5a67d8;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #5a67d8;
+            padding-bottom: 10px;
+        }
+        
+        .code-block {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 12px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 15px 0;
+            position: relative;
+            overflow-x: auto;
+        }
+        
+        .output {
+            background: #1a202c;
+            color: #68d391;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        
+        .run-btn {
+            background: linear-gradient(45deg, #4299e1, #3182ce);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(66, 153, 225, 0.3);
+        }
+        
+        .run-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(66, 153, 225, 0.4);
+        }
+        
+        .keyword { color: #ff7979; }
+        .string { color: #00b894; }
+        .function { color: #74b9ff; }
+        .comment { color: #636e72; font-style: italic; }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+        }
+        
+        .highlight {
+            background: rgba(255, 235, 59, 0.2);
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ООП в JavaScript - Интерактивные примеры</h1>
+        
+        <!-- 1. Стили программирования -->
+        <div class="section">
+            <h2>1. Стили программирования в JavaScript</h2>
+            
+            <h3>Процедурный стиль</h3>
+            <div class="code-block">
+<span class="comment">// Процедурный стиль - код выполняется последовательно</span>
+<span class="keyword">function</span> <span class="function">hello</span>() {
+    console.log(<span class="string">"Единичка"</span>);
+}
+
+<span class="keyword">let</span> name = <span class="string">"Alex"</span>;
+<span class="keyword">let</span> age = 25;
+
+<span class="keyword">function</span> <span class="function">printPerson</span>() {
+    console.log(<span class="string">`Имя: ${name}, Возраст: ${age}`</span>);
+}
+
+hello();
+printPerson();
+            </div>
+            <button class="run-btn" onclick="runProceduralExample()">Запустить пример</button>
+            <div id="procedural-output" class="output" style="display: none;"></div>
+            
+            <h3>Функциональный стиль</h3>
+            <div class="code-block">
+<span class="comment">// Функциональный стиль - фокус на результате и данных</span>
+<span class="keyword">const</span> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+<span class="comment">// Фильтруем четные числа</span>
+<span class="keyword">const</span> evenNumbers = numbers.filter(num => num % 2 === 0);
+
+<span class="comment">// Удваиваем каждое число</span>
+<span class="keyword">const</span> doubled = evenNumbers.map(num => num * 2);
+
+console.log(<span class="string">"Исходный массив:"</span>, numbers);
+console.log(<span class="string">"Четные числа:"</span>, evenNumbers);
+console.log(<span class="string">"Удвоенные четные:"</span>, doubled);
+            </div>
+            <button class="run-btn" onclick="runFunctionalExample()">Запустить пример</button>
+            <div id="functional-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 2. Классы ES6 -->
+        <div class="section">
+            <h2>2. Классы в JavaScript (ES6)</h2>
+            
+            <div class="code-block">
+<span class="comment">// Объявление класса с конструктором</span>
+<span class="keyword">class</span> <span class="function">Person</span> {
+    <span class="comment">// Конструктор инициализирует новый экземпляр</span>
+    <span class="keyword">constructor</span>(name, age) {
+        <span class="keyword">this</span>.name = name;    <span class="comment">// this ссылается на текущий объект</span>
+        <span class="keyword">this</span>.age = age;
+    }
+    
+    <span class="comment">// Метод класса</span>
+    <span class="function">print</span>() {
+        console.log(<span class="string">`Привет! Меня зовут ${this.name}, мне ${this.age} лет.`</span>);
+    }
+    
+    <span class="function">celebrateBirthday</span>() {
+        <span class="keyword">this</span>.age++;
+        console.log(<span class="string">`С днем рождения! Теперь мне ${this.age} лет!`</span>);
+    }
+}
+
+<span class="comment">// Создание экземпляров класса</span>
+<span class="keyword">const</span> alex = <span class="keyword">new</span> Person(<span class="string">"Alex"</span>, 20);
+<span class="keyword">const</span> maria = <span class="keyword">new</span> Person(<span class="string">"Maria"</span>, 25);
+
+alex.print();
+maria.print();
+alex.celebrateBirthday();
+            </div>
+            <button class="run-btn" onclick="runClassExample()">Запустить пример</button>
+            <div id="class-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 3. Наследование -->
+        <div class="section">
+            <h2>3. Наследование (extends и super)</h2>
+            
+            <div class="code-block">
+<span class="comment">// Родительский класс</span>
+<span class="keyword">class</span> <span class="function">Animal</span> {
+    <span class="keyword">constructor</span>(type) {
+        <span class="keyword">this</span>.type = type;
+    }
+    
+    <span class="function">run</span>(direction) {
+        console.log(<span class="string">`${this.type} бежит в направлении: ${direction}`</span>);
+    }
+    
+    <span class="function">sleep</span>() {
+        console.log(<span class="string">`${this.type} спит`</span>);
+    }
+}
+
+<span class="comment">// Дочерний класс наследует от Animal</span>
+<span class="keyword">class</span> <span class="function">Person</span> <span class="keyword">extends</span> Animal {
+    <span class="keyword">constructor</span>(name, age, type = <span class="string">"Человек"</span>) {
+        <span class="keyword">super</span>(type);  <span class="comment">// Вызов конструктора родительского класса</span>
+        <span class="keyword">this</span>.name = name;
+        <span class="keyword">this</span>.age = age;
+    }
+    
+    <span class="comment">// Переопределение метода родительского класса</span>
+    <span class="function">run</span>(direction) {
+        <span class="keyword">super</span>.run(direction);  <span class="comment">// Вызов родительского метода</span>
+        console.log(<span class="string">`${this.name} бежит со скоростью 15 км/ч`</span>);
+    }
+    
+    <span class="comment">// Уникальный метод дочернего класса</span>
+    <span class="function">speak</span>() {
+        console.log(<span class="string">`${this.name} говорит: "Привет!"`</span>);
+    }
+}
+
+<span class="keyword">const</span> person = <span class="keyword">new</span> Person(<span class="string">"Алексей"</span>, 25);
+person.run(<span class="string">"север"</span>);
+person.sleep();
+person.speak();
+            </div>
+            <button class="run-btn" onclick="runInheritanceExample()">Запустить пример</button>
+            <div id="inheritance-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 4. Инкапсуляция -->
+        <div class="section">
+            <h2>4. Инкапсуляция (приватные поля и геттеры/сеттеры)</h2>
+            
+            <div class="code-block">
+<span class="comment">// Современная инкапсуляция с приватными полями (#)</span>
+<span class="keyword">class</span> <span class="function">BankAccount</span> {
+    <span class="comment">// Приватные поля (доступны только внутри класса)</span>
+    #cardNumber;
+    #cvc;
+    #balance;
+    
+    <span class="keyword">constructor</span>(cardNumber, cvc, initialBalance = 0) {
+        <span class="keyword">this</span>.#cardNumber = cardNumber;
+        <span class="keyword">this</span>.#cvc = cvc;
+        <span class="keyword">this</span>.#balance = initialBalance;
+        <span class="keyword">this</span>.ownerName = <span class="string">""</span>;  <span class="comment">// Публичное поле</span>
+    }
+    
+    <span class="comment">// Геттер - контролируемый доступ к приватному полю</span>
+    <span class="keyword">get</span> <span class="function">cardNumber</span>() {
+        <span class="keyword">return</span> <span class="string">"****-****-****-"</span> + <span class="keyword">this</span>.#cardNumber.slice(-4);
+    }
+    
+    <span class="comment">// Геттер для баланса</span>
+    <span class="keyword">get</span> <span class="function">balance</span>() {
+        <span class="keyword">return</span> <span class="keyword">this</span>.#balance;
+    }
+    
+    <span class="comment">// Сеттер с валидацией</span>
+    <span class="keyword">set</span> <span class="function">ownerName</span>(name) {
+        <span class="keyword">if</span> (name.length < 2) {
+            console.log(<span class="string">"Имя должно содержать минимум 2 символа"</span>);
+            <span class="keyword">return</span>;
+        }
+        <span class="keyword">this</span>._ownerName = name.toUpperCase();
+    }
+    
+    <span class="keyword">get</span> <span class="function">ownerName</span>() {
+        <span class="keyword">return</span> <span class="keyword">this</span>._ownerName;
+    }
+    
+    <span class="comment">// Публичные методы для работы с приватными данными</span>
+    <span class="function">deposit</span>(amount) {
+        <span class="keyword">if</span> (amount > 0) {
+            <span class="keyword">this</span>.#balance += amount;
+            console.log(<span class="string">`Пополнено на ${amount}. Баланс: ${this.#balance}`</span>);
+        }
+    }
+    
+    <span class="function">withdraw</span>(amount) {
+        <span class="keyword">if</span> (amount > 0 && amount <= <span class="keyword">this</span>.#balance) {
+            <span class="keyword">this</span>.#balance -= amount;
+            console.log(<span class="string">`Снято ${amount}. Баланс: ${this.#balance}`</span>);
+        } <span class="keyword">else</span> {
+            console.log(<span class="string">"Недостаточно средств или неверная сумма"</span>);
+        }
+    }
+}
+
+<span class="keyword">const</span> account = <span class="keyword">new</span> BankAccount(<span class="string">"1234567890123456"</span>, <span class="string">"123"</span>, 1000);
+account.ownerName = <span class="string">"Иван Петров"</span>;
+
+console.log(<span class="string">"Номер карты:"</span>, account.cardNumber);
+console.log(<span class="string">"Владелец:"</span>, account.ownerName);
+console.log(<span class="string">"Баланс:"</span>, account.balance);
+
+account.deposit(500);
+account.withdraw(200);
+
+<span class="comment">// Попытка прямого доступа к приватному полю (не сработает)</span>
+console.log(<span class="string">"Попытка доступа к #balance:"</span>, account.#balance);
+            </div>
+            <button class="run-btn" onclick="runEncapsulationExample()">Запустить пример</button>
+            <div id="encapsulation-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 5. Полиморфизм -->
+        <div class="section">
+            <h2>5. Полиморфизм</h2>
+            
+            <div class="code-block">
+<span class="comment">// Базовый класс для демонстрации полиморфизма</span>
+<span class="keyword">class</span> <span class="function">Shape</span> {
+    <span class="keyword">constructor</span>(name) {
+        <span class="keyword">this</span>.name = name;
+    }
+    
+    <span class="function">draw</span>() {
+        console.log(<span class="string">`Рисуем фигуру: ${this.name}`</span>);
+    }
+    
+    <span class="function">calculateArea</span>() {
+        console.log(<span class="string">"Площадь не определена для базовой фигуры"</span>);
+    }
+}
+
+<span class="keyword">class</span> <span class="function">Circle</span> <span class="keyword">extends</span> Shape {
+    <span class="keyword">constructor</span>(radius) {
+        <span class="keyword">super</span>(<span class="string">"Круг"</span>);
+        <span class="keyword">this</span>.radius = radius;
+    }
+    
+    <span class="comment">// Переопределение метода draw</span>
+    <span class="function">draw</span>() {
+        <span class="keyword">super</span>.draw();
+        console.log(<span class="string">`🔵 Круг с радиусом ${this.radius}`</span>);
+    }
+    
+    <span class="function">calculateArea</span>() {
+        <span class="keyword">const</span> area = Math.PI * <span class="keyword">this</span>.radius * <span class="keyword">this</span>.radius;
+        console.log(<span class="string">`Площадь круга: ${area.toFixed(2)}`</span>);
+        <span class="keyword">return</span> area;
+    }
+}
+
+<span class="keyword">class</span> <span class="function">Rectangle</span> <span class="keyword">extends</span> Shape {
+    <span class="keyword">constructor</span>(width, height) {
+        <span class="keyword">super</span>(<span class="string">"Прямоугольник"</span>);
+        <span class="keyword">this</span>.width = width;
+        <span class="keyword">this</span>.height = height;
+    }
+    
+    <span class="function">draw</span>() {
+        <span class="keyword">super</span>.draw();
+        console.log(<span class="string">`▭ Прямоугольник ${this.width}x${this.height}`</span>);
+    }
+    
+    <span class="function">calculateArea</span>() {
+        <span class="keyword">const</span> area = <span class="keyword">this</span>.width * <span class="keyword">this</span>.height;
+        console.log(<span class="string">`Площадь прямоугольника: ${area}`</span>);
+        <span class="keyword">return</span> area;
+    }
+}
+
+<span class="keyword">class</span> <span class="function">Triangle</span> <span class="keyword">extends</span> Shape {
+    <span class="keyword">constructor</span>(base, height) {
+        <span class="keyword">super</span>(<span class="string">"Треугольник"</span>);
+        <span class="keyword">this</span>.base = base;
+        <span class="keyword">this</span>.height = height;
+    }
+    
+    <span class="function">draw</span>() {
+        <span class="keyword">super</span>.draw();
+        console.log(<span class="string">`🔺 Треугольник с основанием ${this.base} и высотой ${this.height}`</span>);
+    }
+    
+    <span class="function">calculateArea</span>() {
+        <span class="keyword">const</span> area = (<span class="keyword">this</span>.base * <span class="keyword">this</span>.height) / 2;
+        console.log(<span class="string">`Площадь треугольника: ${area}`</span>);
+        <span class="keyword">return</span> area;
+    }
+}
+
+<span class="comment">// Полиморфизм в действии - один интерфейс, разные реализации</span>
+<span class="keyword">const</span> shapes = [
+    <span class="keyword">new</span> Circle(5),
+    <span class="keyword">new</span> Rectangle(4, 6),
+    <span class="keyword">new</span> Triangle(3, 8)
+];
+
+console.log(<span class="string">"=== Демонстрация полиморфизма ==="</span>);
+shapes.forEach(shape => {
+    shape.draw();           <span class="comment">// Каждый класс реализует по-своему</span>
+    shape.calculateArea();  <span class="comment">// Каждый класс считает по-своему</span>
+    console.log(<span class="string">"-".repeat(30)</span>);
+});
+            </div>
+            <button class="run-btn" onclick="runPolymorphismExample()">Запустить пример</button>
+            <div id="polymorphism-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 6. Статические члены -->
+        <div class="section">
+            <h2>6. Статические атрибуты и методы</h2>
+            
+            <div class="code-block">
+<span class="keyword">class</span> <span class="function">Person</span> {
+    <span class="comment">// Статические атрибуты - принадлежат классу, а не экземплярам</span>
+    <span class="keyword">static</span> region = <span class="string">"Asia"</span>;
+    <span class="keyword">static</span> species = <span class="string">"Homo sapiens"</span>;
+    <span class="keyword">static</span> totalPersons = 0;
+    
+    <span class="keyword">constructor</span>(name, age) {
+        <span class="keyword">this</span>.name = name;
+        <span class="keyword">this</span>.age = age;
+        <span class="comment">// Увеличиваем счетчик при создании экземпляра</span>
+        Person.totalPersons++;
+    }
+    
+    <span class="comment">// Статический метод - доступен только через класс</span>
+    <span class="keyword">static</span> <span class="function">help</span>() {
+        console.log(<span class="string">`
+🔹 Класс Person предназначен для создания объектов людей
+🔹 Регион по умолчанию: ${Person.region}
+🔹 Вид: ${Person.species}
+🔹 Всего создано объектов: ${Person.totalPersons}
+        `</span>);
+    }
+    
+    <span class="keyword">static</span> <span class="function">compareAge</span>(person1, person2) {
+        <span class="keyword">if</span> (person1.age > person2.age) {
+            <span class="keyword">return</span> <span class="string">`${person1.name} старше ${person2.name}`</span>;
+        } <span class="keyword">else if</span> (person1.age < person2.age) {
+            <span class="keyword">return</span> <span class="string">`${person2.name} старше ${person1.name}`</span>;
+        } <span class="keyword">else</span> {
+            <span class="keyword">return</span> <span class="string">`${person1.name} и ${person2.name} одного возраста`</span>;
+        }
+    }
+    
+    <span class="function">introduce</span>() {
+        console.log(<span class="string">`Привет! Я ${this.name}, мне ${this.age} лет.`</span>);
+    }
+}
+
+<span class="comment">// Доступ к статическим членам через класс</span>
+console.log(<span class="string">"Регион:"</span>, Person.region);
+console.log(<span class="string">"Вид:"</span>, Person.species);
+Person.help();
+
+<span class="comment">// Создаем экземпляры</span>
+<span class="keyword">const</span> alex = <span class="keyword">new</span> Person(<span class="string">"Alex"</span>, 25);
+<span class="keyword">const</span> maria = <span class="keyword">new</span> Person(<span class="string">"Maria"</span>, 30);
+<span class="keyword">const</span> john = <span class="keyword">new</span> Person(<span class="string">"John"</span>, 25);
+
+alex.introduce();
+maria.introduce();
+
+<span class="comment">// Использование статического метода</span>
+console.log(Person.compareAge(alex, maria));
+console.log(Person.compareAge(alex, john));
+
+<span class="comment">// Показываем обновленную статистику</span>
+Person.help();
+
+<span class="comment">// Попытка доступа к статическому методу через экземпляр (не сработает)</span>
+console.log(<span class="string">"Попытка alex.help():"</span>);
+<span class="keyword">try</span> {
+    alex.help();
+} <span class="keyword">catch</span> (error) {
+    console.log(<span class="string">"Ошибка:"</span>, error.message);
+}
+            </div>
+            <button class="run-btn" onclick="runStaticExample()">Запустить пример</button>
+            <div id="static-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 7. Прототипы ES5 -->
+        <div class="section">
+            <h2>7. ООП под капотом: Прототипы (ES5)</h2>
+            
+            <div class="code-block">
+<span class="comment">// Конструктор-функция (ES5 стиль)</span>
+<span class="keyword">function</span> <span class="function">Person2</span>(name, age) {
+    <span class="keyword">this</span>.name = name;
+    <span class="keyword">this</span>.age = age;
+    <span class="comment">// Функция неявно возвращает this</span>
+}
+
+<span class="comment">// Добавление методов к прототипу</span>
+Person2.prototype.print = <span class="keyword">function</span>() {
+    console.log(<span class="string">`ES5: Привет! Меня зовут ${this.name}, мне ${this.age} лет.`</span>);
+};
+
+Person2.prototype.celebrateBirthday = <span class="keyword">function</span>() {
+    <span class="keyword">this</span>.age++;
+    console.log(<span class="string">`ES5: С днем рождения! Теперь мне ${this.age} лет!`</span>);
+};
+
+<span class="comment">// Статические члены в ES5</span>
+Person2.region = <span class="string">"Asia"</span>;
+Person2.help = <span class="keyword">function</span>() {
+    console.log(<span class="string">"ES5: Помощь по классу Person2"</span>);
+};
+
+<span class="comment">// Наследование в ES5</span>
+<span class="keyword">function</span> <span class="function">Animal2</span>(type) {
+    <span class="keyword">this</span>.type = type;
+}
+
+Animal2.prototype.run = <span class="keyword">function</span>(direction) {
+    console.log(<span class="string">`ES5: ${this.type} бежит в направлении: ${direction}`</span>);
+};
+
+<span class="comment">// Дочерний конструктор</span>
+<span class="keyword">function</span> <span class="function">PersonAnimal</span>(name, age, type) {
+    <span class="comment">// Вызов родительского конструктора</span>
+    Animal2.call(<span class="keyword">this</span>, type);
+    <span class="keyword">this</span>.name = name;
+    <span class="keyword">this</span>.age = age;
+}
+
+<span class="comment">// Настройка наследования прототипов</span>
+PersonAnimal.prototype = Object.create(Animal2.prototype);
+PersonAnimal.prototype.constructor = PersonAnimal;
+
+<span class="comment">// Добавление собственных методов</span>
+PersonAnimal.prototype.speak = <span class="keyword">function</span>() {
+    console.log(<span class="string">`ES5: ${this.name} говорит: "Привет!"`</span>);
+};
+
+<span class="comment">// Переопределение родительского метода</span>
+PersonAnimal.prototype.run = <span class="keyword">function</span>(direction) {
+    <span class="comment">// Вызов родительского метода</span>
+    Animal2.prototype.run.call(<span class="keyword">this</span>, direction);
+    console.log(<span class="string">`ES5: ${this.name} бежит со скоростью 15 км/ч`</span>);
+};
+
+<span class="comment">// Создание экземпляров</span>
+<span class="keyword">const</span> person2 = <span class="keyword">new</span> Person2(<span class="string">"Анна"</span>, 28);
+<span class="keyword">const</span> personAnimal = <span class="keyword">new</span> PersonAnimal(<span class="string">"Петр"</span>, 35, <span class="string">"Человек"</span>);
+
+console.log(<span class="string">"=== ES5 Примеры ==="</span>);
+person2.print();
+person2.celebrateBirthday();
+
+console.log(<span class="string">"Статический атрибут:"</span>, Person2.region);
+Person2.help();
+
+console.log(<span class="string">"=== Наследование ES5 ==="</span>);
+personAnimal.speak();
+personAnimal.run(<span class="string">"восток"</span>);
+
+<span class="comment">// Демонстрация цепочки прототипов</span>
+console.log(<span class="string">"=== Цепочка прототипов ==="</span>);
+console.log(<span class="string">"personAnimal.__proto__ === PersonAnimal.prototype:"</span>, personAnimal.__proto__ === PersonAnimal.prototype);
+console.log(<span class="string">"PersonAnimal.prototype.__proto__ === Animal2.prototype:"</span>, PersonAnimal.prototype.__proto__ === Animal2.prototype);
+console.log(<span class="string">"Animal2.prototype.__proto__ === Object.prototype:"</span>, Animal2.prototype.__proto__ === Object.prototype);
+
+<span class="comment">// Пример работы toString() через цепочку прототипов</span>
+console.log(<span class="string">"Число 11 как строка:"</span>, (11).toString());
+            </div>
+            <button class="run-btn" onclick="runPrototypeExample()">Запустить пример</button>
+            <div id="prototype-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 8. Инкапсуляция ES5 -->
+        <div class="section">
+            <h2>8. Инкапсуляция с Object.defineProperty (ES5)</h2>
+            
+            <div class="code-block">
+<span class="comment">// Инкапсуляция с помощью Object.defineProperty</span>
+<span class="keyword">function</span> <span class="function">BankAccountES5</span>(cardNumber, cvc, initialBalance) {
+    <span class="comment">// Приватные переменные через замыкание</span>
+    <span class="keyword">let</span> _cardNumber = cardNumber;
+    <span class="keyword">let</span> _cvc = cvc;
+    <span class="keyword">let</span> _balance = initialBalance || 0;
+    <span class="keyword">let</span> _ownerName = <span class="string">""</span>;
+    
+    <span class="comment">// Определяем свойство cardNumber с геттером</span>
+    Object.defineProperty(<span class="keyword">this</span>, <span class="string">'cardNumber'</span>, {
+        <span class="keyword">get</span>: <span class="keyword">function</span>() {
+            <span class="keyword">return</span> <span class="string">"****-****-****-"</span> + _cardNumber.slice(-4);
+        },
+        <span class="function">enumerable</span>: <span class="keyword">true</span>,      <span class="comment">// Видно при перечислении</span>
+        <span class="function">configurable</span>: <span class="keyword">false</span>   <span class="comment">// Нельзя изменить дескриптор</span>
+    });
+    
+    <span class="comment">// Свойство balance только для чтения</span>
+    Object.defineProperty(<span class="keyword">this</span>, <span class="string">'balance'</span>, {
+        <span class="keyword">get</span>: <span class="keyword">function</span>() {
+            <span class="keyword">return</span> _balance;
+        },
+        <span class="function">enumerable</span>: <span class="keyword">true</span>,
+        <span class="function">configurable</span>: <span class="keyword">false</span>
+    });
+    
+    <span class="comment">// Свойство ownerName с геттером и сеттером</span>
+    Object.defineProperty(<span class="keyword">this</span>, <span class="string">'ownerName'</span>, {
+        <span class="keyword">get</span>: <span class="keyword">function</span>() {
+            <span class="keyword">return</span> _ownerName;
+        },
+        <span class="keyword">set</span>: <span class="keyword">function</span>(name) {
+            <span class="keyword">if</span> (name.length < 2) {
+                console.log(<span class="string">"ES5: Имя должно содержать минимум 2 символа"</span>);
+                <span class="keyword">return</span>;
+            }
+            _ownerName = name.toUpperCase();
+        },
+        <span class="function">enumerable</span>: <span class="keyword">true</span>,
+        <span class="function">configurable</span>: <span class="keyword">false</span>
+    });
+    
+    <span class="comment">// Публичные методы</span>
+    <span class="keyword">this</span>.deposit = <span class="keyword">function</span>(amount) {
+        <span class="keyword">if</span> (amount > 0) {
+            _balance += amount;
+            console.log(<span class="string">`ES5: Пополнено на ${amount}. Баланс: ${_balance}`</span>);
+        }
+    };
+    
+    <span class="keyword">this</span>.withdraw = <span class="keyword">function</span>(amount) {
+        <span class="keyword">if</span> (amount > 0 && amount <= _balance) {
+            _balance -= amount;
+            console.log(<span class="string">`ES5: Снято ${amount}. Баланс: ${_balance}`</span>);
+        } <span class="keyword">else</span> {
+            console.log(<span class="string">"ES5: Недостаточно средств или неверная сумма"</span>);
+        }
+    };
+    
+    <span class="comment">// Приватный метод (недоступен извне)</span>
+    <span class="keyword">function</span> <span class="function">validateCvc</span>(inputCvc) {
+        <span class="keyword">return</span> inputCvc === _cvc;
+    }
+    
+    <span class="comment">// Публичный метод, использующий приватный</span>
+    <span class="keyword">this</span>.verifyCard = <span class="keyword">function</span>(inputCvc) {
+        <span class="keyword">if</span> (validateCvc(inputCvc)) {
+            console.log(<span class="string">"ES5: Карта подтверждена"</span>);
+            <span class="keyword">return</span> <span class="keyword">true</span>;
+        } <span class="keyword">else</span> {
+            console.log(<span class="string">"ES5: Неверный CVC код"</span>);
+            <span class="keyword">return</span> <span class="keyword">false</span>;
+        }
+    };
+}
+
+<span class="keyword">const</span> accountES5 = <span class="keyword">new</span> BankAccountES5(<span class="string">"9876543210123456"</span>, <span class="string">"456"</span>, 2000);
+accountES5.ownerName = <span class="string">"Сергей Иванов"</span>;
+
+console.log(<span class="string">"=== Инкапсуляция ES5 ==="</span>);
+console.log(<span class="string">"Номер карты:"</span>, accountES5.cardNumber);
+console.log(<span class="string">"Владелец:"</span>, accountES5.ownerName);
+console.log(<span class="string">"Баланс:"</span>, accountES5.balance);
+
+accountES5.deposit(300);
+accountES5.withdraw(150);
+accountES5.verifyCard(<span class="string">"456"</span>);
+accountES5.verifyCard(<span class="string">"123"</span>);
+
+<span class="comment">// Демонстрация дескрипторов свойств</span>
+console.log(<span class="string">"=== Дескрипторы свойств ==="</span>);
+<span class="keyword">const</span> descriptor = Object.getOwnPropertyDescriptor(accountES5, <span class="string">'balance'</span>);
+console.log(<span class="string">"Дескриптор свойства 'balance':"</span>, descriptor);
+            </div>
+            <button class="run-btn" onclick="runES5EncapsulationExample()">Запустить пример</button>
+            <div id="es5-encapsulation-output" class="output" style="display: none;"></div>
+        </div>
+
+        <!-- 9. Сравнение ES5 и ES6 -->
+        <div class="section">
+            <h2>9. Сравнение ES5 и ES6 подходов</h2>
+            
+            <div class="code-block">
+<span class="comment">// Демонстрация того, что классы ES6 - это синтаксический сахар</span>
+<span class="keyword">class</span> <span class="function">ModernClass</span> {
+    <span class="keyword">constructor</span>(name) {
+        <span class="keyword">this</span>.name = name;
+    }
+    
+    <span class="function">greet</span>() {
+        <span class="keyword">return</span> <span class="string">`Привет от ${this.name}!`</span>;
+    }
+    
+    <span class="keyword">static</span> <span class="function">info</span>() {
+        <span class="keyword">return</span> <span class="string">"Это современный класс ES6"</span>;
+    }
+}
+
+<span class="keyword">function</span> <span class="function">OldSchoolConstructor</span>(name) {
+    <span class="keyword">this</span>.name = name;
+}
+
+OldSchoolConstructor.prototype.greet = <span class="keyword">function</span>() {
+    <span class="keyword">return</span> <span class="string">`Привет от ${this.name}!`</span>;
+};
+
+OldSchoolConstructor.info = <span class="keyword">function</span>() {
+    <span class="keyword">return</span> <span class="string">"Это старый конструктор ES5"</span>;
+};
+
+<span class="comment">// Создаем экземпляры</span>
+<span class="keyword">const</span> modern = <span class="keyword">new</span> ModernClass(<span class="string">"ES6"</span>);
+<span class="keyword">const</span> oldSchool = <span class="keyword">new</span> OldSchoolConstructor(<span class="string">"ES5"</span>);
+
+console.log(<span class="string">"=== Сравнение ES5 и ES6 ==="</span>);
+console.log(<span class="string">"Современный класс:"</span>, modern.greet());
+console.log(<span class="string">"Старый конструктор:"</span>, oldSchool.greet());
+
+console.log(<span class="string">"Статический метод ES6:"</span>, ModernClass.info());
+console.log(<span class="string">"Статический метод ES5:"</span>, OldSchoolConstructor.info());
+
+<span class="comment">// Доказательство, что классы - это функции</span>
+console.log(<span class="string">"=== Под капотом ==="</span>);
+console.log(<span class="string">"typeof ModernClass:"</span>, <span class="keyword">typeof</span> ModernClass);
+console.log(<span class="string">"typeof OldSchoolConstructor:"</span>, <span class="keyword">typeof</span> OldSchoolConstructor);
+console.log(<span class="string">"ModernClass.prototype:"</span>, ModernClass.prototype);
+console.log(<span class="string">"OldSchoolConstructor.prototype:"</span>, OldSchoolConstructor.prototype);
+
+<span class="comment">// Проверка цепочки прототипов</span>
+console.log(<span class="string">"modern.__proto__ === ModernClass.prototype:"</span>, modern.__proto__ === ModernClass.prototype);
+console.log(<span class="string">"oldSchool.__proto__ === OldSchoolConstructor.prototype:"</span>, oldSchool.__proto__ === OldSchoolConstructor.prototype);
+
+<span class="comment">// Демонстрация instanceof</span>
+console.log(<span class="string">"modern instanceof ModernClass:"</span>, modern <span class="keyword">instanceof</span> ModernClass);
+console.log(<span class="string">"oldSchool instanceof OldSchoolConstructor:"</span>, oldSchool <span class="keyword">instanceof</span> OldSchoolConstructor);
+            </div>
+            <button class="run-btn" onclick="runComparisonExample()">Запустить пример</button>
+            <div id="comparison-output" class="output" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        // Функции для запуска примеров
+        function runProceduralExample() {
+            const output = document.getElementById('procedural-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Процедурный стиль - код выполняется последовательно
+                function hello() {
+                    console.log("Единичка");
+                }
+
+                let name = "Alex";
+                let age = 25;
+
+                function printPerson() {
+                    console.log(`Имя: ${name}, Возраст: ${age}`);
+                }
+
+                hello();
+                printPerson();
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runFunctionalExample() {
+            const output = document.getElementById('functional-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Функциональный стиль - фокус на результате и данных
+                const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+                // Фильтруем четные числа
+                const evenNumbers = numbers.filter(num => num % 2 === 0);
+
+                // Удваиваем каждое число
+                const doubled = evenNumbers.map(num => num * 2);
+
+                console.log("Исходный массив:", numbers);
+                console.log("Четные числа:", evenNumbers);
+                console.log("Удвоенные четные:", doubled);
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runClassExample() {
+            const output = document.getElementById('class-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Объявление класса с конструктором
+                class Person {
+                    // Конструктор инициализирует новый экземпляр
+                    constructor(name, age) {
+                        this.name = name;    // this ссылается на текущий объект
+                        this.age = age;
+                    }
+                    
+                    // Метод класса
+                    print() {
+                        console.log(`Привет! Меня зовут ${this.name}, мне ${this.age} лет.`);
+                    }
+                    
+                    celebrateBirthday() {
+                        this.age++;
+                        console.log(`С днем рождения! Теперь мне ${this.age} лет!`);
+                    }
+                }
+
+                // Создание экземпляров
+                const person2 = new Person2("Анна", 28);
+                const personAnimal = new PersonAnimal("Петр", 35, "Человек");
+
+                console.log("=== ES5 Примеры ===");
+                person2.print();
+                person2.celebrateBirthday();
+
+                console.log("Статический атрибут:", Person2.region);
+                Person2.help();
+
+                console.log("=== Наследование ES5 ===");
+                personAnimal.speak();
+                personAnimal.run("восток");
+
+                // Демонстрация цепочки прототипов
+                console.log("=== Цепочка прототипов ===");
+                console.log("personAnimal.__proto__ === PersonAnimal.prototype:", personAnimal.__proto__ === PersonAnimal.prototype);
+                console.log("PersonAnimal.prototype.__proto__ === Animal2.prototype:", PersonAnimal.prototype.__proto__ === Animal2.prototype);
+                console.log("Animal2.prototype.__proto__ === Object.prototype:", Animal2.prototype.__proto__ === Object.prototype);
+
+                // Пример работы toString() через цепочку прототипов
+                console.log("Число 11 как строка:", (11).toString());
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runES5EncapsulationExample() {
+            const output = document.getElementById('es5-encapsulation-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Инкапсуляция с помощью Object.defineProperty
+                function BankAccountES5(cardNumber, cvc, initialBalance) {
+                    // Приватные переменные через замыкание
+                    let _cardNumber = cardNumber;
+                    let _cvc = cvc;
+                    let _balance = initialBalance || 0;
+                    let _ownerName = "";
+                    
+                    // Определяем свойство cardNumber с геттером
+                    Object.defineProperty(this, 'cardNumber', {
+                        get: function() {
+                            return "****-****-****-" + _cardNumber.slice(-4);
+                        },
+                        enumerable: true,      // Видно при перечислении
+                        configurable: false   // Нельзя изменить дескриптор
+                    });
+                    
+                    // Свойство balance только для чтения
+                    Object.defineProperty(this, 'balance', {
+                        get: function() {
+                            return _balance;
+                        },
+                        enumerable: true,
+                        configurable: false
+                    });
+                    
+                    // Свойство ownerName с геттером и сеттером
+                    Object.defineProperty(this, 'ownerName', {
+                        get: function() {
+                            return _ownerName;
+                        },
+                        set: function(name) {
+                            if (name.length < 2) {
+                                console.log("ES5: Имя должно содержать минимум 2 символа");
+                                return;
+                            }
+                            _ownerName = name.toUpperCase();
+                        },
+                        enumerable: true,
+                        configurable: false
+                    });
+                    
+                    // Публичные методы
+                    this.deposit = function(amount) {
+                        if (amount > 0) {
+                            _balance += amount;
+                            console.log(`ES5: Пополнено на ${amount}. Баланс: ${_balance}`);
+                        }
+                    };
+                    
+                    this.withdraw = function(amount) {
+                        if (amount > 0 && amount <= _balance) {
+                            _balance -= amount;
+                            console.log(`ES5: Снято ${amount}. Баланс: ${_balance}`);
+                        } else {
+                            console.log("ES5: Недостаточно средств или неверная сумма");
+                        }
+                    };
+                    
+                    // Приватный метод (недоступен извне)
+                    function validateCvc(inputCvc) {
+                        return inputCvc === _cvc;
+                    }
+                    
+                    // Публичный метод, использующий приватный
+                    this.verifyCard = function(inputCvc) {
+                        if (validateCvc(inputCvc)) {
+                            console.log("ES5: Карта подтверждена");
+                            return true;
+                        } else {
+                            console.log("ES5: Неверный CVC код");
+                            return false;
+                        }
+                    };
+                }
+
+                const accountES5 = new BankAccountES5("9876543210123456", "456", 2000);
+                accountES5.ownerName = "Сергей Иванов";
+
+                console.log("=== Инкапсуляция ES5 ===");
+                console.log("Номер карты:", accountES5.cardNumber);
+                console.log("Владелец:", accountES5.ownerName);
+                console.log("Баланс:", accountES5.balance);
+
+                accountES5.deposit(300);
+                accountES5.withdraw(150);
+                accountES5.verifyCard("456");
+                accountES5.verifyCard("123");
+
+                // Демонстрация дескрипторов свойств
+                console.log("=== Дескрипторы свойств ===");
+                const descriptor = Object.getOwnPropertyDescriptor(accountES5, 'balance');
+                console.log("Дескриптор свойства 'balance':", JSON.stringify(descriptor, null, 2));
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runComparisonExample() {
+            const output = document.getElementById('comparison-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Демонстрация того, что классы ES6 - это синтаксический сахар
+                class ModernClass {
+                    constructor(name) {
+                        this.name = name;
+                    }
+                    
+                    greet() {
+                        return `Привет от ${this.name}!`;
+                    }
+                    
+                    static info() {
+                        return "Это современный класс ES6";
+                    }
+                }
+
+                function OldSchoolConstructor(name) {
+                    this.name = name;
+                }
+
+                OldSchoolConstructor.prototype.greet = function() {
+                    return `Привет от ${this.name}!`;
+                };
+
+                OldSchoolConstructor.info = function() {
+                    return "Это старый конструктор ES5";
+                };
+
+                // Создаем экземпляры
+                const modern = new ModernClass("ES6");
+                const oldSchool = new OldSchoolConstructor("ES5");
+
+                console.log("=== Сравнение ES5 и ES6 ===");
+                console.log("Современный класс:", modern.greet());
+                console.log("Старый конструктор:", oldSchool.greet());
+
+                console.log("Статический метод ES6:", ModernClass.info());
+                console.log("Статический метод ES5:", OldSchoolConstructor.info());
+
+                // Доказательство, что классы - это функции
+                console.log("=== Под капотом ===");
+                console.log("typeof ModernClass:", typeof ModernClass);
+                console.log("typeof OldSchoolConstructor:", typeof OldSchoolConstructor);
+                console.log("ModernClass.prototype существует:", !!ModernClass.prototype);
+                console.log("OldSchoolConstructor.prototype существует:", !!OldSchoolConstructor.prototype);
+
+                // Проверка цепочки прототипов
+                console.log("modern.__proto__ === ModernClass.prototype:", modern.__proto__ === ModernClass.prototype);
+                console.log("oldSchool.__proto__ === OldSchoolConstructor.prototype:", oldSchool.__proto__ === OldSchoolConstructor.prototype);
+
+                // Демонстрация instanceof
+                console.log("modern instanceof ModernClass:", modern instanceof ModernClass);
+                console.log("oldSchool instanceof OldSchoolConstructor:", oldSchool instanceof OldSchoolConstructor);
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+    </script>
+</body>
+</html> экземпляров класса
+                const alex = new Person("Alex", 20);
+                const maria = new Person("Maria", 25);
+
+                alex.print();
+                maria.print();
+                alex.celebrateBirthday();
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runInheritanceExample() {
+            const output = document.getElementById('inheritance-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Родительский класс
+                class Animal {
+                    constructor(type) {
+                        this.type = type;
+                    }
+                    
+                    run(direction) {
+                        console.log(`${this.type} бежит в направлении: ${direction}`);
+                    }
+                    
+                    sleep() {
+                        console.log(`${this.type} спит`);
+                    }
+                }
+
+                // Дочерний класс наследует от Animal
+                class Person extends Animal {
+                    constructor(name, age, type = "Человек") {
+                        super(type);  // Вызов конструктора родительского класса
+                        this.name = name;
+                        this.age = age;
+                    }
+                    
+                    // Переопределение метода родительского класса
+                    run(direction) {
+                        super.run(direction);  // Вызов родительского метода
+                        console.log(`${this.name} бежит со скоростью 15 км/ч`);
+                    }
+                    
+                    // Уникальный метод дочернего класса
+                    speak() {
+                        console.log(`${this.name} говорит: "Привет!"`);
+                    }
+                }
+
+                const person = new Person("Алексей", 25);
+                person.run("север");
+                person.sleep();
+                person.speak();
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runEncapsulationExample() {
+            const output = document.getElementById('encapsulation-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Современная инкапсуляция с приватными полями (#)
+                class BankAccount {
+                    // Приватные поля (доступны только внутри класса)
+                    #cardNumber;
+                    #cvc;
+                    #balance;
+                    
+                    constructor(cardNumber, cvc, initialBalance = 0) {
+                        this.#cardNumber = cardNumber;
+                        this.#cvc = cvc;
+                        this.#balance = initialBalance;
+                        this.ownerName = "";  // Публичное поле
+                    }
+                    
+                    // Геттер - контролируемый доступ к приватному полю
+                    get cardNumber() {
+                        return "****-****-****-" + this.#cardNumber.slice(-4);
+                    }
+                    
+                    // Геттер для баланса
+                    get balance() {
+                        return this.#balance;
+                    }
+                    
+                    // Сеттер с валидацией
+                    set ownerName(name) {
+                        if (name.length < 2) {
+                            console.log("Имя должно содержать минимум 2 символа");
+                            return;
+                        }
+                        this._ownerName = name.toUpperCase();
+                    }
+                    
+                    get ownerName() {
+                        return this._ownerName;
+                    }
+                    
+                    // Публичные методы для работы с приватными данными
+                    deposit(amount) {
+                        if (amount > 0) {
+                            this.#balance += amount;
+                            console.log(`Пополнено на ${amount}. Баланс: ${this.#balance}`);
+                        }
+                    }
+                    
+                    withdraw(amount) {
+                        if (amount > 0 && amount <= this.#balance) {
+                            this.#balance -= amount;
+                            console.log(`Снято ${amount}. Баланс: ${this.#balance}`);
+                        } else {
+                            console.log("Недостаточно средств или неверная сумма");
+                        }
+                    }
+                }
+
+                const account = new BankAccount("1234567890123456", "123", 1000);
+                account.ownerName = "Иван Петров";
+
+                console.log("Номер карты:", account.cardNumber);
+                console.log("Владелец:", account.ownerName);
+                console.log("Баланс:", account.balance);
+
+                account.deposit(500);
+                account.withdraw(200);
+
+                // Попытка прямого доступа к приватному полю (вызовет ошибку)
+                try {
+                    console.log("Попытка доступа к #balance:", account.#balance);
+                } catch (error) {
+                    console.log("Ошибка доступа к приватному полю:", error.message);
+                }
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runPolymorphismExample() {
+            const output = document.getElementById('polymorphism-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Базовый класс для демонстрации полиморфизма
+                class Shape {
+                    constructor(name) {
+                        this.name = name;
+                    }
+                    
+                    draw() {
+                        console.log(`Рисуем фигуру: ${this.name}`);
+                    }
+                    
+                    calculateArea() {
+                        console.log("Площадь не определена для базовой фигуры");
+                    }
+                }
+
+                class Circle extends Shape {
+                    constructor(radius) {
+                        super("Круг");
+                        this.radius = radius;
+                    }
+                    
+                    // Переопределение метода draw
+                    draw() {
+                        super.draw();
+                        console.log(`🔵 Круг с радиусом ${this.radius}`);
+                    }
+                    
+                    calculateArea() {
+                        const area = Math.PI * this.radius * this.radius;
+                        console.log(`Площадь круга: ${area.toFixed(2)}`);
+                        return area;
+                    }
+                }
+
+                class Rectangle extends Shape {
+                    constructor(width, height) {
+                        super("Прямоугольник");
+                        this.width = width;
+                        this.height = height;
+                    }
+                    
+                    draw() {
+                        super.draw();
+                        console.log(`▭ Прямоугольник ${this.width}x${this.height}`);
+                    }
+                    
+                    calculateArea() {
+                        const area = this.width * this.height;
+                        console.log(`Площадь прямоугольника: ${area}`);
+                        return area;
+                    }
+                }
+
+                class Triangle extends Shape {
+                    constructor(base, height) {
+                        super("Треугольник");
+                        this.base = base;
+                        this.height = height;
+                    }
+                    
+                    draw() {
+                        super.draw();
+                        console.log(`🔺 Треугольник с основанием ${this.base} и высотой ${this.height}`);
+                    }
+                    
+                    calculateArea() {
+                        const area = (this.base * this.height) / 2;
+                        console.log(`Площадь треугольника: ${area}`);
+                        return area;
+                    }
+                }
+
+                // Полиморфизм в действии - один интерфейс, разные реализации
+                const shapes = [
+                    new Circle(5),
+                    new Rectangle(4, 6),
+                    new Triangle(3, 8)
+                ];
+
+                console.log("=== Демонстрация полиморфизма ===");
+                shapes.forEach(shape => {
+                    shape.draw();           // Каждый класс реализует по-своему
+                    shape.calculateArea();  // Каждый класс считает по-своему
+                    console.log("------------------------------");
+                });
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runStaticExample() {
+            const output = document.getElementById('static-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                class Person {
+                    // Статические атрибуты - принадлежат классу, а не экземплярам
+                    static region = "Asia";
+                    static species = "Homo sapiens";
+                    static totalPersons = 0;
+                    
+                    constructor(name, age) {
+                        this.name = name;
+                        this.age = age;
+                        // Увеличиваем счетчик при создании экземпляра
+                        Person.totalPersons++;
+                    }
+                    
+                    // Статический метод - доступен только через класс
+                    static help() {
+                        console.log(`
+🔹 Класс Person предназначен для создания объектов людей
+🔹 Регион по умолчанию: ${Person.region}
+🔹 Вид: ${Person.species}
+🔹 Всего создано объектов: ${Person.totalPersons}
+                        `);
+                    }
+                    
+                    static compareAge(person1, person2) {
+                        if (person1.age > person2.age) {
+                            return `${person1.name} старше ${person2.name}`;
+                        } else if (person1.age < person2.age) {
+                            return `${person2.name} старше ${person1.name}`;
+                        } else {
+                            return `${person1.name} и ${person2.name} одного возраста`;
+                        }
+                    }
+                    
+                    introduce() {
+                        console.log(`Привет! Я ${this.name}, мне ${this.age} лет.`);
+                    }
+                }
+
+                // Доступ к статическим членам через класс
+                console.log("Регион:", Person.region);
+                console.log("Вид:", Person.species);
+                Person.help();
+
+                // Создаем экземпляры
+                const alex = new Person("Alex", 25);
+                const maria = new Person("Maria", 30);
+                const john = new Person("John", 25);
+
+                alex.introduce();
+                maria.introduce();
+
+                // Использование статического метода
+                console.log(Person.compareAge(alex, maria));
+                console.log(Person.compareAge(alex, john));
+
+                // Показываем обновленную статистику
+                Person.help();
+
+                // Попытка доступа к статическому методу через экземпляр (не сработает)
+                console.log("Попытка alex.help():");
+                try {
+                    alex.help();
+                } catch (error) {
+                    console.log("Ошибка:", error.message);
+                }
+            } catch (error) {
+                output.innerHTML += 'Ошибка: ' + error.message + '\n';
+            }
+            
+            console.log = originalLog;
+        }
+
+        function runPrototypeExample() {
+            const output = document.getElementById('prototype-output');
+            output.style.display = 'block';
+            output.innerHTML = '';
+            
+            const originalLog = console.log;
+            console.log = function(...args) {
+                output.innerHTML += args.join(' ') + '\n';
+            };
+            
+            try {
+                // Конструктор-функция (ES5 стиль)
+                function Person2(name, age) {
+                    this.name = name;
+                    this.age = age;
+                    // Функция неявно возвращает this
+                }
+
+                // Добавление методов к прототипу
+                Person2.prototype.print = function() {
+                    console.log(`ES5: Привет! Меня зовут ${this.name}, мне ${this.age} лет.`);
+                };
+
+                Person2.prototype.celebrateBirthday = function() {
+                    this.age++;
+                    console.log(`ES5: С днем рождения! Теперь мне ${this.age} лет!`);
+                };
+
+                // Статические члены в ES5
+                Person2.region = "Asia";
+                Person2.help = function() {
+                    console.log("ES5: Помощь по классу Person2");
+                };
+
+                // Наследование в ES5
+                function Animal2(type) {
+                    this.type = type;
+                }
+
+                Animal2.prototype.run = function(direction) {
+                    console.log(`ES5: ${this.type} бежит в направлении: ${direction}`);
+                };
+
+                // Дочерний конструктор
+                function PersonAnimal(name, age, type) {
+                    // Вызов родительского конструктора
+                    Animal2.call(this, type);
+                    this.name = name;
+                    this.age = age;
+                }
+
+                // Настройка наследования прототипов
+                PersonAnimal.prototype = Object.create(Animal2.prototype);
+                PersonAnimal.prototype.constructor = PersonAnimal;
+
+                // Добавление собственных методов
+                PersonAnimal.prototype.speak = function() {
+                    console.log(`ES5: ${this.name} говорит: "Привет!"`);
+                };
+
+                // Переопределение родительского метода
+                PersonAnimal.prototype.run = function(direction) {
+                    // Вызов родительского метода
+                    Animal2.prototype.run.call(this, direction);
+                    console.log(`ES5: ${this.name} бежит со скоростью 15 км/ч`);
+                };
+
+                // Создание
