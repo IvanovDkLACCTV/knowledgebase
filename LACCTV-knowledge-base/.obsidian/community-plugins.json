@@ -4,5 +4,7 @@
   "obsidian-pandoc",
   "obsidian-zotero-desktop-connector",
   "templater-obsidian",
-  "dataview"
+  "dataview",
+  "ascii-tree-generator",
+  "obsidian-excalidraw-plugin"
 ]
