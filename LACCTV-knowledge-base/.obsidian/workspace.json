@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Семафор.md",
+                "file": "JavaScript/Demi Murych/this.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Семафор"
+              "title": "this"
             }
           },
           {
@@ -237,6 +237,8 @@
   },
   "active": "cb8995131f15da30",
   "lastOpenFiles": [
+    "JavaScript/Семафор.md",
+    "JavaScript/Demi Murych/this.md",
     "JavaScript/Особенности асинхронности в JS.md",
     "JavaScript/Just use HTML.md",
     "JavaScript/Render Tree.md",
@@ -270,8 +272,6 @@
     "База знаний/Ссылки на курсы-тренажёры.md",
     "JavaScript/Документирование React Native.md",
     "JavaScript/Замыкания.md",
-    "JavaScript/Фреймворки для документации.md",
-    "JavaScript/Семафор.md",
     "Проекты/База знаний/Схема проекта.canvas",
     "Проекты/Файлообменник",
     "JavaScript/img/Pasted image 20250619085717.png",
