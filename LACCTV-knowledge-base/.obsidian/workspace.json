@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Demi Murych/this.md",
+                "file": "Architecture/FSD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "this"
+              "title": "FSD"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/REST API.md",
+                "file": "JavaScript/Demi Murych/this.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REST API"
+              "title": "this"
             }
           },
           {
@@ -237,8 +237,10 @@
   },
   "active": "cb8995131f15da30",
   "lastOpenFiles": [
-    "JavaScript/Семафор.md",
     "JavaScript/Demi Murych/this.md",
+    "Architecture/REST API.md",
+    "Architecture/FSD.md",
+    "JavaScript/Семафор.md",
     "JavaScript/Особенности асинхронности в JS.md",
     "JavaScript/Just use HTML.md",
     "JavaScript/Render Tree.md",
@@ -270,8 +272,6 @@
     "TypeScript/TS full course.md",
     "Неотсортированное/Список сайтов доступных только через Tor.md",
     "База знаний/Ссылки на курсы-тренажёры.md",
-    "JavaScript/Документирование React Native.md",
-    "JavaScript/Замыкания.md",
     "Проекты/База знаний/Схема проекта.canvas",
     "Проекты/Файлообменник",
     "JavaScript/img/Pasted image 20250619085717.png",
