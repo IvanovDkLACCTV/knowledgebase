@@ -1,3 +1,4 @@
+```tree
 Project 
 - Documentation 
 	- README.md 
@@ -14,3 +15,4 @@ Project
 - Tests 
 	- Unit 
 	- Integration
+```

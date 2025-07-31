@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "new files/ASCII Tree.md",
+                "file": "Weekly reports/Список предаваемых дел перед отпуском.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASCII Tree"
+              "title": "Список предаваемых дел перед отпуском"
             }
           }
         ],
@@ -253,8 +253,9 @@
   },
   "active": "74a5bcceb517528c",
   "lastOpenFiles": [
+    "new files/ASCII Tree test.md",
+    "Weekly reports/Список предаваемых дел перед отпуском.md",
     "new files/Drawing 2025-07-31 16.07.09.excalidraw.md",
-    "new files/ASCII Tree.md",
     "Architecture/FSD.md",
     "JavaScript/Demi Murych/this.md",
     "Architecture/REST API.md",
@@ -287,7 +288,6 @@
     "JavaScript/ООП в JS.md",
     "JavaScript/oop_js_examples.html",
     "Описания/46Y.md",
-    "TypeScript/TS full course.md",
     "Проекты/База знаний/Схема проекта.canvas",
     "Проекты/Файлообменник",
     "JavaScript/img/Pasted image 20250619085717.png",
