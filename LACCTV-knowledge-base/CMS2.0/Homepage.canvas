@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"9d6f1eb4dacf15a4","x":-460,"y":-280,"width":200,"height":600,"type":"group","label":"Sidebar"},
+		{"id":"682dcefe370a03e7","type":"text","text":"Navbar","x":-440,"y":-380,"width":760,"height":60,"color":"6"},
+		{"id":"16c5884b703e3cbc","type":"text","text":"Карта","x":-240,"y":-220,"width":260,"height":120,"color":"4"},
+		{"id":"a428d20f3937acde","type":"text","text":"Управление ТС","x":60,"y":-220,"width":260,"height":120,"color":"2"},
+		{"id":"8ee2eef15535580a","type":"text","text":"Настройки","x":60,"y":-46,"width":260,"height":120},
+		{"id":"4204d1b8abed531f","type":"text","text":"Управление ролями и пользователями","x":-240,"y":-46,"width":260,"height":120,"color":"1"},
+		{"id":"07a9b05b86840f89","type":"text","text":"","x":-440,"y":-260,"width":160,"height":560,"color":"5"},
+		{"id":"5955dc9f493408bf","type":"text","text":"<","x":-330,"y":-260,"width":50,"height":50},
+		{"id":"80c7d90b103d4155","type":"text","text":"Карта","x":-425,"y":-180,"width":145,"height":60,"color":"4"},
+		{"id":"cedbd792d3366f55","type":"text","text":"Упр-ние ТС","x":-425,"y":-87,"width":145,"height":54,"color":"2"},
+		{"id":"669b478cd0cf8777","type":"text","text":"Пользователи и роли","x":-425,"y":-10,"width":145,"height":60,"color":"1"},
+		{"id":"a587ba8641bf3e35","type":"text","text":"Настройки","x":-425,"y":220,"width":145,"height":60}
+	],
+	"edges":[]
+}
