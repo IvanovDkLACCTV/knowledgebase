@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "База знаний/Задержка записи после выключения.md",
+                "file": "JavaScript/Разбор задания по Fronend от Hexlet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Задержка записи после выключения"
+              "title": "Разбор задания по Fronend от Hexlet"
             }
           },
           {
@@ -255,8 +255,9 @@
   },
   "active": "cb8995131f15da30",
   "lastOpenFiles": [
-    "Architecture/FSD.md",
     "База знаний/Задержка записи после выключения.md",
+    "JavaScript/Разбор задания по Fronend от Hexlet.md",
+    "Architecture/FSD.md",
     "Weekly reports/Список предаваемых дел перед отпуском.md",
     "CMS2.0/Homepage.canvas",
     "CMS2.0/Homepage.md",
@@ -288,7 +289,6 @@
     "Неотсортированное/Вопросы по техподдержке.md",
     "JavaScript/ООП в JS c примером.zip",
     "База знаний/AI assistants 07-2025.md",
-    "JavaScript/К примеру по ООП.md",
     "JavaScript/ООП в JS c примером/oop_js_examples.html",
     "JavaScript/ООП в JS c примером",
     "JavaScript/oop_js_examples.html",
