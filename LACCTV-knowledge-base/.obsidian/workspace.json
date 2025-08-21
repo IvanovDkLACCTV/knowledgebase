@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5,
-    "collapsed": true
+    "width": 203.5
   },
   "right": {
     "id": "00b2ff8384be0007",
@@ -255,7 +254,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cb8995131f15da30",
+  "active": "bb54182c82383c0b",
   "lastOpenFiles": [
     "JavaScript/Разбор задания по Fronend от Hexlet.md",
     "JavaScript/JavaScript runtimes and engines.md",
