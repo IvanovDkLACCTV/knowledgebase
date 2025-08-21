@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Разбор задания по Fronend от Hexlet.md",
+                "file": "JavaScript/JavaScript runtimes and engines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Разбор задания по Fronend от Hexlet"
+              "title": "JavaScript runtimes and engines"
             }
           },
           {
@@ -242,6 +242,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -255,8 +256,9 @@
   },
   "active": "cb8995131f15da30",
   "lastOpenFiles": [
-    "База знаний/Задержка записи после выключения.md",
     "JavaScript/Разбор задания по Fronend от Hexlet.md",
+    "JavaScript/JavaScript runtimes and engines.md",
+    "База знаний/Задержка записи после выключения.md",
     "Architecture/FSD.md",
     "Weekly reports/Список предаваемых дел перед отпуском.md",
     "CMS2.0/Homepage.canvas",
@@ -288,7 +290,6 @@
     "JavaScript/Demi Murych JS собес.md",
     "Неотсортированное/Вопросы по техподдержке.md",
     "JavaScript/ООП в JS c примером.zip",
-    "База знаний/AI assistants 07-2025.md",
     "JavaScript/ООП в JS c примером/oop_js_examples.html",
     "JavaScript/ООП в JS c примером",
     "JavaScript/oop_js_examples.html",
