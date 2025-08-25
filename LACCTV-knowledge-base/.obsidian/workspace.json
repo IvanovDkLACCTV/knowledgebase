@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML and CSS/Семантика и SEO.md",
+                "file": "Architecture/Modular vs Atomic vs FSD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Семантика и SEO"
+              "title": "Modular vs Atomic vs FSD"
             }
           },
           {
@@ -256,8 +256,9 @@
   },
   "active": "cb8995131f15da30",
   "lastOpenFiles": [
-    "JavaScript/JavaScript runtimes and engines.md",
     "HTML and CSS/Семантика и SEO.md",
+    "Architecture/Modular vs Atomic vs FSD.md",
+    "JavaScript/JavaScript runtimes and engines.md",
     "HTML and CSS",
     "JavaScript/Разбор задания по Fronend от Hexlet.md",
     "База знаний/Задержка записи после выключения.md",
@@ -289,7 +290,6 @@
     "JavaScript/Demi Murych/Demi Murych JS собес.md",
     "JavaScript/Demi Murych",
     "JavaScript/Новая папка",
-    "JavaScript/Demi Murych JS собес.md",
     "JavaScript/ООП в JS c примером.zip",
     "JavaScript/ООП в JS c примером/oop_js_examples.html",
     "JavaScript/ООП в JS c примером",
