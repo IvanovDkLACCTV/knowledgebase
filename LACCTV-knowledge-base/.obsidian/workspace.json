@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "c05cd7a91b915275",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-01 16.08.53.excalidraw"
+            }
+          },
+          {
             "id": "6eded1cb41d4630d",
             "type": "leaf",
             "state": {
@@ -79,8 +91,19 @@
               "icon": "lucide-file",
               "title": "Список предаваемых дел перед отпуском"
             }
+          },
+          {
+            "id": "8709861bc4ed8607",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,8 +263,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cb8995131f15da30",
+  "active": "c05cd7a91b915275",
   "lastOpenFiles": [
+    "RMe/Встреча RMe 27-08-2025.md",
+    "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
     "Architecture/Modular vs Atomic vs FSD.md",
     "JavaScript/Demi Murych/this.md",
     "HTML and CSS/Семантика и SEO.md",
@@ -272,8 +297,6 @@
     "JavaScript/Асинхронность в JS.md",
     "JavaScript/Demi Murych.zip",
     "JavaScript/Собес Demi Murych дополнение.md",
-    "JavaScript/Demi Murych/Собес Demi Murych дополнение.md",
-    "JavaScript/Demi Murych/Demi Murych JS собес.md",
     "JavaScript/Demi Murych",
     "JavaScript/Новая папка",
     "JavaScript/ООП в JS c примером.zip",
