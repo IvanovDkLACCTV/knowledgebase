@@ -96,14 +96,18 @@
             "id": "8709861bc4ed8607",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Сайт LA/Аналитика.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Аналитика"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -263,9 +267,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c05cd7a91b915275",
+  "active": "8709861bc4ed8607",
   "lastOpenFiles": [
+    "Сайт LA/Аналитика.md",
+    "Сайт LA",
     "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
+    "JavaScript/img/Шпаргалка по ООП и ФП в JS.png",
     "PDF/Шпаргалка по ООП и ФП.pdf",
     "JavaScript/img/ООП и ФП в JS.svg",
     "RMe/Встреча RMe 27-08-2025.md",
@@ -301,7 +308,6 @@
     "JavaScript/Demi Murych",
     "JavaScript/Новая папка",
     "JavaScript/ООП в JS c примером.zip",
-    "JavaScript/ООП в JS c примером/oop_js_examples.html",
     "Проекты/База знаний/Схема проекта.canvas",
     "JavaScript/img/Pasted image 20250619085717.png",
     "Инструкции/img/Pasted image 20250526134112.png",
@@ -311,7 +317,6 @@
     "Инструкции/img/Pasted image 20250526134420.png",
     "Инструкции/img/Pasted image 20250526134243.png",
     "Инструкции/img/Pasted image 20250526134201.png",
-    "Jira/img/Pasted image 20250523104145.png",
     "Weekly reports/Без названия.canvas"
   ]
 }
