@@ -263,9 +263,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6c7eae017a9292ce",
+  "active": "c05cd7a91b915275",
   "lastOpenFiles": [
     "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
+    "PDF/Шпаргалка по ООП и ФП.pdf",
+    "JavaScript/img/ООП и ФП в JS.svg",
     "RMe/Встреча RMe 27-08-2025.md",
     "Architecture/Modular vs Atomic vs FSD.md",
     "JavaScript/Demi Murych/this.md",
@@ -296,12 +298,10 @@
     "JavaScript/Классы",
     "JavaScript/Асинхронность в JS.md",
     "JavaScript/Demi Murych.zip",
-    "JavaScript/Собес Demi Murych дополнение.md",
     "JavaScript/Demi Murych",
     "JavaScript/Новая папка",
     "JavaScript/ООП в JS c примером.zip",
     "JavaScript/ООП в JS c примером/oop_js_examples.html",
-    "JavaScript/ООП в JS c примером",
     "Проекты/База знаний/Схема проекта.canvas",
     "JavaScript/img/Pasted image 20250619085717.png",
     "Инструкции/img/Pasted image 20250526134112.png",
@@ -312,7 +312,6 @@
     "Инструкции/img/Pasted image 20250526134243.png",
     "Инструкции/img/Pasted image 20250526134201.png",
     "Jira/img/Pasted image 20250523104145.png",
-    "Jira/img/Pasted image 20250523103846.png",
     "Weekly reports/Без названия.canvas"
   ]
 }
