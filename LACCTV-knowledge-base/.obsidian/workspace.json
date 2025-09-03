@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сайт LA/Аналитика.md",
+                "file": "Сайт LA/Камеры.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Аналитика"
+              "title": "Камеры"
             }
           }
         ],
@@ -270,6 +270,8 @@
   "active": "8709861bc4ed8607",
   "lastOpenFiles": [
     "Сайт LA/Аналитика.md",
+    "Сайт LA/Камеры.md",
+    "Weekly reports/Август 2025.md",
     "Сайт LA",
     "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
     "JavaScript/img/Шпаргалка по ООП и ФП в JS.png",
@@ -301,9 +303,7 @@
     "JavaScript/Классы.zip",
     "JavaScript/Классы/Статические методы класса.md",
     "JavaScript/Классы/Setter.md",
-    "JavaScript/Классы/Getter.md",
     "JavaScript/Классы",
-    "JavaScript/Асинхронность в JS.md",
     "JavaScript/Demi Murych.zip",
     "JavaScript/Demi Murych",
     "JavaScript/Новая папка",
