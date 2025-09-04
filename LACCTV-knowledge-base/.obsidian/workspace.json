@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "React/SOLID.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -283,6 +283,12 @@
   },
   "active": "fac80b2d973194ab",
   "lastOpenFiles": [
+    "React/~WRL1199.tmp",
+    "React/Dev_pronciples.jpg",
+    "React/~$SOLID.docx",
+    "React/SOLID.docx",
+    "React/Документ Microsoft Word.docx",
+    "PDF/SOLID.pdf",
     "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
     "React/SOLID.md",
     "React",
@@ -316,12 +322,7 @@
     "JavaScript/Семафор.md",
     "JavaScript/Особенности асинхронности в JS.md",
     "JavaScript/Just use HTML.md",
-    "JavaScript/Render Tree.md",
     "JavaScript/Классы.zip",
-    "JavaScript/Классы",
-    "JavaScript/Demi Murych.zip",
-    "JavaScript/Demi Murych",
-    "JavaScript/Новая папка",
     "Проекты/База знаний/Схема проекта.canvas",
     "JavaScript/img/Pasted image 20250619085717.png",
     "Инструкции/img/Pasted image 20250526134112.png",
@@ -330,7 +331,6 @@
     "Инструкции/img/Pasted image 20250526134505.png",
     "Инструкции/img/Pasted image 20250526134420.png",
     "Инструкции/img/Pasted image 20250526134243.png",
-    "Инструкции/img/Pasted image 20250526134201.png",
     "Weekly reports/Без названия.canvas"
   ]
 }
