@@ -25,12 +25,12 @@
             "id": "c05cd7a91b915275",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md"
+                "file": "TypeScript/TS_cheat_sheet.jpg"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-01 16.08.53.excalidraw"
+              "icon": "lucide-image",
+              "title": "TS_cheat_sheet"
             }
           },
           {
@@ -121,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -281,10 +281,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8709861bc4ed8607",
+  "active": "c05cd7a91b915275",
   "lastOpenFiles": [
-    "Сайт LA/Сопутствующее оборудование.md",
+    "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
     "Сайт LA/4-канальные видеорегистраторы.md",
+    "Сайт LA/Сопутствующее оборудование.md",
     "React/SOLID.md",
     "React/~WRL1199.tmp",
     "React/Dev_pronciples.jpg",
@@ -292,7 +293,6 @@
     "React/SOLID.docx",
     "React/Документ Microsoft Word.docx",
     "PDF/SOLID.pdf",
-    "Курс ООП и алгоритмы/Drawing 2025-09-01 16.08.53.excalidraw.md",
     "React",
     "Курс ООП и алгоритмы/Drawing 2025-09-04 13.09.35.excalidraw.md",
     "Сайт LA/Камеры.md",
