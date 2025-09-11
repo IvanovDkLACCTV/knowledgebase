@@ -16,7 +16,7 @@
 | **UI libraries**         | ShadCN/UI                       | GlueStack/UI         | StyleX, NativeWind, Reanimated, MUI, AntDesign          |
 | **Tests**                | Unit Tests/Postman              | Manual tests/Swagger | React testing library, Maestro, Jest, StoryBook, Cypres |
 | **Architecture**         | FSD/MVC                         | Basic design         | Modular                                                 |
-| **Routing**              | React Router / React Navigation | Next/Expo Router     |                                                         |
+| **Routing**              | React Router / React Navigation | Next/Expo Router     | TanStack Router                                         |
 
 
 ## Main focus
