@@ -1,5 +1,5 @@
 
-|                          | Main                            | Secondary            | If needed                                               |
+| *full*                   | Main                            | Secondary            | If needed                                               |
 | ------------------------ | ------------------------------- | -------------------- | ------------------------------------------------------- |
 | **PL**                   | TypeScript                      | JavaScript           | Pyhton, Go                                              |
 | **JS RunTime**           | Bun                             | Node.js              | Deno                                                    |
@@ -19,11 +19,8 @@
 | **Routing**              | React Router / React Navigation | Next/Expo Router     | TanStack Router                                         |
 
 
-## Main focus
-
-
-|                       | Main             | Secondary           |
-| --------------------- | ---------------- | ------------------- |
+| *primary*                 | Main             | Secondary           |
+| ------------------------- | ---------------- | ------------------- |
 | **Promgramming Language** | TS               | JS                  |
 | **BackEnd**               | Bun              | Deno/Node.js + vite |
 | **FronEnd**               | React            | Next/Expo           |
